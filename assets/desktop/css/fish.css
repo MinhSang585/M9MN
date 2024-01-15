@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+#fishBody {
+    position: relative;
+    max-width: 1920px;
+    min-width: 1200px;
+    margin: 0 auto;
+    background:#eaeaea url(../images/fish/fish-main-bg.png) no-repeat center top;
+    background-size: 100% 100%;
+
+}
+
+.content #items {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header_top{
+    background: #1672d6;
+}
+.top_nav{
+  background: #fff;
+}
+.top_nav.night{
+    background: #2060a5;
+}
+.header_top.night{
+    background: #1672d6;
+    color: #fff;
+}
+
+.forgetpwd, .login_after li, .login_after li a{
+    color: #fff;
+}
+.header_top .login_after,
+.header_top .login_after li a,
+.header_top.night .login_after li a{
+    color: #fff;
+}
+.content-main-bg.night{
+    background:#202747 url(../images/fish/main-bg1.jpg) no-repeat center top;
+}
+.footer-detail.night,
+.footer-detail{
+    height: 311px;
+    padding-top: 35px;
+    background: url(../images/fish/footer-bg.jpg) no-repeat center top;
+}
+
+

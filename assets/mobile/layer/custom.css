@@ -1,0 +1,19 @@
+﻿.layui-layer-molv .layui-layer-title {
+    padding: 0;
+    font-size: 16px !important;
+    font-weight:bold !important;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, right top, from(#9968fd), to(#fc49af)) no-repeat center top;
+    background: -webkit-linear-gradient(left, #9968fd, #fc49af) no-repeat center top;
+    background: -o-linear-gradient(left, #9968fd, #fc49af) no-repeat center top;
+    background: linear-gradient(90deg, #9968fd, #fc49af) no-repeat center top;
+    padding-left: 10px;
+    /*text-align:center;*/
+}
+
+.layui-layer-molv .layui-layer-btn a {
+    background: #697dac;
+    border-color: #697dac;
+}
+
+

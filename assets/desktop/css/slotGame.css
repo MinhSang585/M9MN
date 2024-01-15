@@ -1,0 +1,1072 @@
+.top_nav .dropdown .drop-list:nth-child(1) .chess-list-context{
+    height: auto;
+}
+/*.top_nav .navbar .navbar-list {
+    position: static;
+}*/
+/*中奖名单*/
+.winner_list{
+    background: #fff;
+}
+.winner_list .left-loop{
+    width: 100%;
+    overflow: hidden;
+}
+
+.winner_list .bd{
+    width: 100%;
+}
+
+.winner_list .infoList li {
+    display: inline-block;
+    width: 335px;
+    height: 87px;
+    margin: 15px 50px 15px 0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px 5px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 5px 5px rgba(0,0,0,.2);
+    box-shadow: 0 0 5px 5px rgba(0,0,0,.2);
+}
+.winner_list .infoList li:nth-last-of-type(1){
+    margin-right: 0;
+}
+.winner_list .infoList li .gamepic {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.winner_list .infoList li .gamepic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.winner_list .infoList li .wintext {
+    text-align: left;
+    float: left;
+    font-size: 12px;
+}
+
+.winner_list .infoList li .wintext span {
+    color: red;
+}
+
+/*奖池*/
+.jackpots-cont{
+   margin-bottom: 30px;
+}
+
+.jackpots-cont .pt-jackpot{
+    float: left;
+    width: 590px;
+    height: 75px;
+    line-height: 1;
+    font-size: 24px;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    color: #37358d;
+    background: linear-gradient(0deg,#303587,#6931a8);
+}
+.jackpots-cont .dt-jackpot{
+    float: right;
+    width: 590px;
+    height: 75px;
+    line-height: 1;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    font-size: 24px;
+    color: #a31096;
+    background: linear-gradient(0deg,#6422af,#a010b6);
+}
+.jackpot-title{
+    padding: 5px 0;
+    text-align: center;
+}
+
+
+
+.jcount1 {
+    height: 35px;
+    width: 455px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 35px;
+    padding: 0 0 0 5px;
+    letter-spacing: 21px;
+    background: url(../images/index/new/pt-jack-bg.png) repeat-x center;
+}
+
+.main_content .jackpots #j111-jackpotCount {
+    left: 40px;
+    top: 80px;
+
+}
+
+.num-item{
+    display: inline-block;
+    width: 26px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 3px;
+    background:url(../images/index/new/num-bg.png) no-repeat center top;
+}
+
+
+
+
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+.content {
+    position: relative;
+}
+
+
+
+/*老虎机分类*/
+.slot-cont{
+    background:#d9e9ff url(../images/slotGame/slot-game-bg.png?v=1.2) repeat-y center top;
+}
+.game-tab-cont{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.tab-menu {
+    height: 155px;
+    overflow: hidden;
+    padding: 20px 0 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.tab-menu.active{
+    height: auto;
+    overflow: auto;
+}
+.tab-menu .slot-item {
+    float: left;
+    /*width: 98px;*/
+	/*width: 228px;*/
+    height: 120px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    background: #fff;
+    color: #999;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    -ms-flex: 0 0 19%;
+    flex: 0 0 19%;
+}
+.tab-menu .slot-item:nth-of-type(10n+1){
+    margin-left: 10px;
+}
+.tab-menu .slot-item:nth-of-type(10){
+   margin-right: 110px;
+}
+
+.tab-menu .hot-game-item{
+    background: url(../images/slotGame/hot-game1.png) no-repeat center top;
+}
+.tab-menu .slot-item:hover, .tab-menu .slot-item.active {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(180deg,#d55ca2,#9d61dd);
+
+}
+.tab-menu .hot-game-item:hover,
+.tab-menu .hot-game-item.active{
+    background: url(../images/slotGame/hot-game-hover1.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.other-item{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    width: 100px;
+    height: 120px;
+    padding: 0 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    background: url(../images/slotGame/other-item.png) no-repeat center top;
+    background-size: 100% 100%;
+    cursor: pointer;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+.other-item.active,
+.other-item:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background: url(../images/slotGame/other-item-hover.png) no-repeat center top;
+    background-size: 100% 100%;
+}
+.tab-menu .slot-item:nth-last-of-type(1){
+    margin-right: 0;
+}
+
+.tab-menu  .slot-item a {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.slot-icon{
+    padding: 20px 0;
+    border-bottom: 1px solid transparent;
+}
+
+
+
+
+
+.tab-menu li:hover .slot-icon,
+.tab-menu li.active .slot-icon{
+    border-bottom: 1px solid #c678d5;
+}
+
+
+/*游戏搜索表单*/
+.search_container {
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.search-info .label {
+    display: inline-block;
+    vertical-align: middle;
+    color: #b48c68;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.search-info {
+    width: 77%;
+    padding: 10px 0 10px 50px;
+}
+
+.search-info .search-hd {
+    margin-bottom: 10px;
+}
+
+.search-info .bg-search {
+    width: 26px;
+    height: 26px;
+    margin-right: 7px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../images/slotGame/slot_sprites5.png) -63px -185px;
+}
+.down_pic{
+    width: 100px;
+}
+.search-info .ipt-group {
+    position: relative;
+    display: inline-block;
+    width: 590px;
+    border-radius: 5px;
+    border: 1px solid #d6dae4;
+    vertical-align: middle;
+}
+
+.search-info .ipt-group .ipt {
+    width: 100%;
+    padding: 0 10px;
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    color: #c1c1c1;
+    background: transparent;
+}
+
+.search-info .btn-reset {
+    width: 114px;
+    height: 36px;
+    font-size: 16px;
+    color: #fff;
+    background: #787876;
+    border-radius: 7px;
+}
+
+.search-info .search-hd .btn {
+    width: 112px;
+    height: 34px;
+    border: none;
+    border-radius: 7px;
+    vertical-align: middle;
+
+    font-size: 16px;
+    color: #fff;
+    background: -webkit-gradient(linear,left top, left bottom,from(#d55ca2),to(#9d61dd));
+    background: -webkit-linear-gradient(top,#d55ca2,#9d61dd);
+    background: -o-linear-gradient(top,#d55ca2,#9d61dd);
+    background: linear-gradient(180deg,#d55ca2,#9d61dd);
+}
+.search-info .search-hd .btn  .iconfont{
+    margin-right: 5px;
+}
+.search-info .select-list {
+    display: none;
+    position: absolute;
+    z-index: 9;
+    left: -1px;
+    right: -1px;
+    top: 31px;
+    background: rgb(68, 64, 55);
+    border: 1px solid #5c5853;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.search-info .select-list a {
+    display: block;
+    color: #c1c1c1;
+    padding: 6px 6px 6px 12px;
+    text-align: left;
+}
+
+.search-info .select-list a:hover {
+    background: #3a362a;
+}
+
+.search-info .show-action {
+    padding-top: 10px;
+    width: 150px;
+    text-align: center;
+    border-left: 1px dashed #5c5853;
+    height: 158px;
+}
+
+.search-info .search-row {
+    height: 38px;
+    line-height: 38px;
+}
+.search-info .search-row dt .iconfont{
+    margin-right: 10px;
+    vertical-align: middle;
+    color: #d55ca2;
+}
+
+.search-info .search-row dt, .search-info .search-row dd {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search-info .search-row dt {
+    margin-right: 12px;
+    color: #333;
+}
+
+.search-info .search-row a {
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 28px;
+    color: #999;
+}
+
+.search-info #tab-ttg .search-row a {
+    margin-right: 9px;
+}
+
+.search-info .search-row .active {
+    padding: 0 12px;
+    border-radius: 14px;
+    color: #333;
+    background: #ffd100;
+}
+
+.search-info .search-row .btn-reset {
+    width: 56px;
+    height: 26px;
+    line-height: 26px;
+    background: #d9d9d9;
+    margin-top: 7px;
+    border-radius: 4px;
+    margin-right: 0;
+}
+
+.search-info .btn.btn-two {
+    color: #fb9b08;
+    padding: 10px;
+    line-height: 1;
+    height: auto;
+}
+
+.search-info .btn.btn-two .iconfont {
+    font-size: 42px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.search-info .search-bd {
+    border: none;
+    overflow: hidden;
+    text-align: left;
+}
+
+.search-bd .filter-content {
+}
+
+.search-bd .download-content {
+    width: 23%;
+    float: left;
+    text-align: center;
+}
+
+.search-bd .download-content .down_box {
+    width: 50%;
+}
+
+.search-bd .download-content .down_pic {
+    width: 75px;
+    height: 75px;
+}
+
+/*平台转账*/
+.download-content{
+    display: block;
+}
+.transfer-box {
+    width: 23%;
+    padding: 15px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    background: #eaeaea;
+}
+.down-cont{
+    margin: 8px auto;
+}
+.down-box{
+    display: inline-block;
+    width: 42%;
+    text-align: center;
+}
+.down-cont .down-pic{
+    width: 90px;
+    height: 90px;
+}
+.wp1 {
+    background: #fff;
+}
+
+.transfer-box .transfer-hd {
+    font-size: 18px;
+    padding: 10px 0 0 20px;
+    color: #b48c68;
+    font-weight: 600;
+    text-align: left;
+}
+
+.transfer-box .transfer-bd {
+    padding: 15px 0 0 20px;
+}
+
+.transfer-box .transferto {
+    padding: 2px 5px;
+    text-align: center;
+    color: #b58e6b;
+}
+
+.transfer-box .transferto p {
+    line-height: 1;
+}
+
+.transfer-box .select {
+    display: inline-block;
+    width: 104px;
+    height: 32px;
+    border: none;
+    background: #b58e6b;
+    color: #fff;
+    padding-left: 8px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.transfer-box .input {
+    width: 186px;
+    margin-left: 4px;
+    margin-top: 11px;
+    height: 34px;
+    line-height: 34px;
+    color: #555;
+    border: 1px solid #b48c68;
+    border-radius: 7px;
+}
+
+.transfer-box .btn_transfer {
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    background: #b48c68;
+    color: #fff;
+}
+
+
+
+/*游戏列表和详情
+==============*/
+.game-list {
+    position: relative;
+    padding: 20px 0;
+    overflow: auto;
+    text-align:center;
+}
+
+.game-info {
+    /*width: 224px;*/
+    padding-bottom:10px;
+    margin:1em;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    color: #c1c1c1;
+    text-align: left;
+    transition: all .3s;
+    background: #fff;
+    border-radius: 10px;
+    display:inline-block;
+}
+
+/*.game-list .game-info:nth-child(-n+8) {
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+}
+
+.game-list .game-info:nth-child(1) {
+    animation-delay: .4s;
+}
+
+.game-list .game-info:nth-child(2) {
+    animation-delay: .5s;
+}
+
+.game-list .game-info:nth-child(3) {
+    animation-delay: .6s;
+}
+
+.game-list .game-info:nth-child(4) {
+    animation-delay: .7s;
+}
+
+.game-list .game-info:nth-child(5) {
+    animation-delay: .8s;
+}
+
+.game-list .game-info:nth-child(6) {
+    animation-delay: 1s;
+}
+
+.game-list .game-info:nth-child(7) {
+    animation-delay: 1.1s;
+}
+
+.game-list .game-info:nth-child(8) {
+    animation-delay: 1.2s;
+}
+
+.game-list .game-info:nth-child(9) {
+    animation-delay: 1.3s;
+}
+
+.game-list .game-info:nth-child(10) {
+    animation-delay: 1.4s;
+}*/
+
+.game-info:hover {
+    transform: translateY(-6px);
+}
+
+.game-info {
+    position: relative;
+    overflow: hidden;
+}
+
+.game-info .game-pic {
+    position: relative;
+    width: 100%;
+    /*height: 224px;*/
+    overflow: hidden;
+}
+
+.game-info .game-pic img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.game-info .name {
+    position: relative;
+    height: 34px;
+    padding-top: 5px;
+    text-align: center;
+    transition: background 0.2s;
+    -webkit-transition: background 0.2s;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.game-info .name .category{
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 5px;
+    margin-left: 3px;
+    border-radius: 8px;
+    background: linear-gradient(90deg,#9968fd,#fc49af);
+    color: #fff;
+    transition: all .3s;
+}
+.game-info .name .category:hover{
+    background: linear-gradient(90deg,#6134bd,#cd0075);
+}
+.game-info .name h4 {
+    color: #333;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.game-info .name h4 sub {
+    display: block;
+    font-size: 12px;
+    color: #787876;
+    text-transform: uppercase;
+}
+
+.game-info .btn-try {
+    display: inline-block;
+    width: 91px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #666;
+    border-radius: 15px;
+    background: #fff;
+    color: #666;
+    -webkit-transition:all .2s;
+    -o-transition:all .2s;
+    transition:all .2s
+}
+.game-info .btn-try:hover{
+    background: #ffd100;
+    color: #333;
+    border-color: transparent;
+}
+.game-info .play {
+    display: inline-block;
+    width: 91px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+    border-radius: 15px;
+    vertical-align: top;
+    background: #ffd100;
+    color: #333;
+    -webkit-transition:all .2s;
+    -o-transition:all .2s;
+    transition:all .2s
+}
+.game-info .play:hover{
+    background: #ffe366;
+}
+.game-info .collect{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 27px;
+    height: 27px;
+}
+.game-info .collect .iconfont{
+    font-size: 27px;
+    color: #fff;
+}
+.game-info .collect .shoucang{
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    width: 27px;
+    height: 27px;
+    background: url(../images/slotGame/icon-shoucang.png) no-repeat center top;
+    background-size: 100%;
+}
+.game-info .collect .iconfont.icon-love{
+    font-size: 27px;
+    color: #ffd100;
+}
+/*游戏侧边栏菜单*/
+
+
+.aside-menu li a {
+    display: block;
+    padding: 14px 0;
+    height: 78px;
+    font-size: 12px;
+}
+
+.aside-menu li:first-child a {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.aside-menu .iconfont {
+    font-size: 30px;
+    display: block;
+    line-height: 1;
+    transition: all .3s;
+}
+
+.aside-menu a:hover .iconfont {
+    transform: scale(1.2);
+    text-shadow: 0 0 6px rgba(0, 0, 0, .8);
+}
+
+.aside-menu .icon-heart2 {
+    color: #c33e3e;
+}
+
+.aside-menu .icon-game {
+    color: #3a78bb;
+}
+
+.jackpot-flag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 76px;
+    height: 76px;
+    background: url(../images/jackpot-flag1.png) no-repeat center top;
+
+}
+
+
+.chess{
+    width: 91px;
+    height: 36px;
+    display: inline-block;
+    line-height: 36px;
+    color: #fff;
+    border-radius: 7px;
+}
+.game-info .chess-title h4 sub{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+.icon_font1{
+    font-size: 20px;
+    font-weight: bold;
+    top: 17px;
+    position: relative;
+}
+.icon_font2{
+    top: 22px;
+    position: relative;
+}
+
+
+.logo-cont{
+    height: 60px;
+    width: 334px;
+    margin:  0;
+    background: url(../images/slotGame/slot-icon3.png) no-repeat center top;
+    background-size: auto 60px;
+}
+.logo-cont.night{
+    background: url(../images/slotGame/slot-icon-n.png) no-repeat center top;
+    background-size: auto 60px;
+}
+
+.top_nav{
+    background: #fff;
+}
+.top_nav.night{
+    background: #353772;
+}
+.header_top{
+    background: #30328c;
+}
+.header_top.night{
+    background: #30328c;
+    color: #fff;
+}
+.login_after li,
+.login_after li a{
+    color: #fff;
+}
+.header_top.night  .login_after.tools li:nth-of-type(3) a{
+    color: #f1d461;
+}
+.header_top.night .login_after li a{
+    color: #fff;
+}
+.layui-layer.tips22-layer .layui-layer-btn {
+    text-align: center;
+}
+
+.layui-layer.tips22-layer a {
+    min-width: 90px;
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    background: #697dac;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.layui-layer.tips-layer {
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+}
+
+.layui-layer.tips-layer .layui-layer-content {
+    text-align: center;
+}
+
+.layui-layer.tips-layer .layui-layer-title {
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+    font-size: 16px;
+    color: #fff;
+    background: -webkit-gradient(linear,left top, right top,from(#9968fd),to(#fc49af)) no-repeat center top;
+    background: -webkit-linear-gradient(left,#9968fd,#fc49af) no-repeat center top;
+    background: -o-linear-gradient(left,#9968fd,#fc49af) no-repeat center top;
+    background: linear-gradient(90deg,#9968fd,#fc49af) no-repeat center top;
+}
+
+.layui-layer.tips-layer .layui-layer-btn {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.layui-layer.tips-layer .layui-layer-btn0 {
+    min-width: 90px;
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    background: #697dac;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.layui-layer.tips-layer .layui-layer-btn1{
+    min-width: 90px;
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.layui-layer.tips-layer .input-group>label{
+    display: inline-block;
+    width: 60px;
+}
+.join-game-transform-cont .transfer-title{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+ .money{
+     color: #f82929;
+}
+.join-game-transform-cont .account-btn{
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    margin:0 5px 5px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    background: -webkit-gradient(linear,left top, left bottom,from(#fc49af),to(#9968fd));
+    background: -webkit-linear-gradient(top,#fc49af,#9968fd);
+    background: -o-linear-gradient(top,#fc49af,#9968fd);
+    background: linear-gradient(180deg,#fc49af,#9968fd);
+}
+.join-game-transform-cont .account-btn.c1{
+    height: auto;
+    background: none;
+    color: #333;
+    line-height: 1;
+}
+.join-game-transform-cont  .transfer-money-context{
+    position: relative;
+    width: 300px;
+    margin: 5px auto;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    border-radius: 20px;
+    text-align: left;
+    background: #eee;
+    color: #fb4ab0;
+}
+.join-game-transform-cont  .transfer-money-context #transfer-money{
+    position: absolute;
+    top: 0;
+    left: 35px;
+    height: 100%;
+    width: 245px;
+    box-shadow: none;
+    border: none;
+    background: none;
+}
+.layui-layer.transfer-layer.tips-layer .layui-layer-btn1,
+.layui-layer.transfer-layer.tips-layer .layui-layer-btn0{
+    min-width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+.layui-layer.transfer-layer.tips-layer .layui-layer-btn{
+    padding-bottom: 25px;
+}
+#fast-deposit-cont{
+    display: none;
+    padding: 25px;
+}
+.layui-layer.transfer-layer.tips-layer #fast-deposit-cont .save-cont{
+    width: 311px;
+    height: 119px;
+    margin: 20px auto 10px;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #fff;
+    background: url(../images/copon-bg.png) no-repeat center top;
+}
+.coupon-cont{
+    margin-bottom: 25px;
+}
+.coupon-cont #coupon{
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    text-align-last: center;
+}
+.dividend-multiple-cont .dividend-cont,
+.dividend-multiple-cont .multiple-cont{
+    display: inline-block;
+    width: 48%;
+}
+
+.less-money-layer.layui-layer.layui-layer-dialog .layui-layer-content{
+    overflow: inherit;
+    padding-bottom: 0;
+}
+.tt-layer.layui-layer.layui-layer-dialog .layui-layer-content{
+    padding-bottom: 40px;
+}
+.less-money-layer.layui-layer.layui-layer-dialog .layui-layer-btn0,
+.less-money-layer.layui-layer.layui-layer-dialog .layui-layer-btn1{
+    width: 140px;
+    height: 40px;
+    line-height:40px;
+    text-align: center;
+    border-radius: 20px;
+    background: -webkit-gradient(linear,right top, left top,from(#fc49af),to(#9968fd));
+    background: -webkit-linear-gradient(right,#fc49af,#9968fd);
+    background: -o-linear-gradient(right,#fc49af,#9968fd);
+    background: linear-gradient(-90deg,#fc49af,#9968fd);
+}
+.less-money-layer.layui-layer.layui-layer-dialog .layui-layer-btn1{
+    color: #fff;
+    background: #b5b5b5;
+}
+.less-money-layer.layui-layer.layui-layer-dialog .layui-layer-setwin .layui-layer-close2{
+    right: -5px;
+    top: -5px;
+    background: url(../images/cc.png) no-repeat center;
+}
+#tip{
+    position: absolute;
+    top:-40px;
+    left: 50%;
+    margin-left: -61px;
+}
+#tip-cont{
+    margin: 150px 0 40px;
+    font-size: 14px;
+}
+#tip-cont h3{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight:bold;
+}
+#tip-cont h3 .iconfont{
+    margin-right: 3px;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #fc4ab0;
+}
+
+
+
+
+
+
+
+
+
+
+.content-main-bg.night{
+    background:#202747 url(../images/slotGame/main-bg.jpg) repeat-y center top;
+}
+.content-main-bg.night .slot-cont{
+    background: none;
+}
+.content-main-bg.night .winner_list .bd{
+    background: #404c6f;
+}
+.content-main-bg.night .infoList li{
+    background: #262a46;
+    color: #fff;
+}
+.content-main-bg.night .infoList li .wintext span{
+    color: #e6214f;
+}
+.content-main-bg.night .infoList li .wintext .name{
+    color: #8e9abc;
+}
+.footer-detail.night,
+.footer-detail{
+    height: 311px;
+    padding-top: 35px;
+    background: url(../images/slotGame/footer-bg.jpg) no-repeat center top;
+}
+

@@ -1,0 +1,234 @@
+.top_nav .dropdown .drop-list:nth-child(1) .chess-list-context {
+    height: auto;
+}
+/*.top_nav .navbar .navbar-list {
+    position: static;
+}*/
+
+
+.main-body {
+    position: relative;
+    max-width: 1920px;
+    min-width: 1200px;
+    margin: 0 auto;
+    background-size: 100% 100%;
+
+}
+
+.content {
+    position: relative;
+    padding: 50px 0;
+}
+
+.content #items {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*leihuo*/
+
+#items .lh-game-item {
+    position: relative;
+    height: 300px;
+    margin-bottom: 30px;
+    background: url(../images/sport/tf-bg.png) no-repeat center bottom;
+    background-size: 100% 100%;
+}
+
+#items .lh-game-item .lh-join-game-btn {
+    position: absolute;
+    bottom: 220px;
+    right: 160px;
+    height: 166px;
+    width: 162px;
+    background: url(../images/sport/join-game.png) no-repeat center top;
+    cursor: pointer;
+    z-index: 88;
+    transition: all .3s;
+}
+
+#items .lh-game-item .lh-sport {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all .3s;
+    width:327px;
+    /*z-index: 22;*/
+}
+
+#items .lh-game-item:hover .lh-sport {
+    left: 50px;
+}
+
+
+/*iwin*/
+
+#items .iw-game-item {
+    position: relative;
+    height: 300px;
+    margin-bottom: 30px;
+    background: url(../images/sport/iwin-bg.png) no-repeat center bottom;
+    background-size: 100% 100%;
+}
+
+#items .iw-game-item .iw-join-game-btn {
+    position: absolute;
+    bottom: 220px;
+    right: 160px;
+    height: 166px;
+    width: 162px;
+    background: url(../images/sport/join-game.png) no-repeat center top;
+    cursor: pointer;
+    z-index: 88;
+    transition: all .3s;
+}
+
+#items .iw-game-item .iw-sport {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all .3s;
+    width:327px;
+    /*z-index: 22;*/
+}
+
+#items .iw-game-item:hover .iw-sport {
+    left: 50px;
+}
+
+/*super*/
+
+#items .sp-game-item {
+    position: relative;
+    height: 300px;
+    margin-bottom: 30px;
+    background: url(../images/sport/super-bg.png) no-repeat center bottom;
+    background-size: 100% 100%;
+}
+
+#items .sp-game-item .sp-join-game-btn {
+    position: absolute;
+    bottom: 220px;
+    right: 160px;
+    height: 166px;
+    width: 162px;
+    background: url(../images/sport/join-game.png) no-repeat center top;
+    cursor: pointer;
+    z-index: 88;
+    transition: all .3s;
+}
+
+#items .sp-game-item .sp-sport {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all .3s;
+    width:327px;
+    /*z-index: 22;*/
+}
+
+#items .sp-game-item:hover .sp-sport {
+    left: 50px;
+}
+
+/*afb*/
+
+#items .afb-game-item {
+    position: relative;
+    height: 300px;
+    margin-bottom: 30px;
+    background: url(../images/sport/afb-bg.png) no-repeat center bottom;
+     background-size: 100% 100%;
+}
+
+#items .afb-game-item .afb-join-game-btn {
+   position: absolute;
+    bottom: 220px;
+    right: 160px;
+    height: 166px;
+    width: 162px;
+    background: url(../images/sport/join-game.png) no-repeat center top;
+    cursor: pointer;
+    z-index: 88;
+    transition: all .3s;
+}
+
+#items .afb-game-item .afb-sport {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all .3s;
+    width:327px;
+    /*z-index: 22;*/
+}
+
+#items .afb-game-item:hover .afb-sport {
+    left: 50px;
+}
+
+
+
+#items .lh-game-item .lh-join-game-btn:hover,
+#items .iw-game-item .iw-join-game-btn:hover,
+#items .sp-game-item .sp-join-game-btn:hover,
+#items .afb-game-item .afb-join-game-btn:hover{
+    transform: scale(1.1);
+}
+
+
+.logo-cont{
+    display: block;
+    width: 233px;
+    height: 40px;
+    margin: 10px 0;
+    background: url(../images/index/qy.png?v=1.3) no-repeat center top;
+    background-size: 100%;
+}
+.logo-cont.night{
+    background: url(../images/slotGame/sport-icon-n.png) no-repeat center top;
+    background-size: auto 60px;
+}
+
+
+
+
+/*白夜版顶部导航*/
+.header_top {
+    background: #121931;
+}
+
+.top_nav {
+    background: #fff;
+}
+
+.top_nav.night {
+    background: #232e4a;
+}
+
+.header_top.night {
+    background: #121931;
+    color: #fff;
+}
+
+.header_top .login_after,
+.header_top .login_after li a,
+.header_top.night .login_after li a {
+    color: #fff;
+}
+
+.forgetpwd, .login_after li, .login_after li a {
+    color: #fff;
+}
+
+.content-main-bg.night {
+    background: #202747 url(../images/sport/main-bg-n.jpg) no-repeat center top;
+}
+
+.footer-detail.night,
+.footer-detail {
+    height: 311px;
+    padding-top: 35px;
+    background: url(../images/sport/footer-bg.png?v=1.2) no-repeat center top;
+}

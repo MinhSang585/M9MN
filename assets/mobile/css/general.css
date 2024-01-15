@@ -1,0 +1,292 @@
+@CHARSET "UTF-8";
+/* CSS Document */
+header{height:90px;}
+.menu-sbox{top:90px;}
+.btn-login{
+	/*
+	background-image: -webkit-linear-gradient(top, #fff6f3 50%, #f4d099 100%);
+    background-image: -o-linear-gradient(top, #fff6f3 50%, #f4d099 100%);
+    background-image: linear-gradient(to bottom, #fff6f3 50%, #f4d099 100%);
+    background-repeat: repeat-x;
+	*/
+	background-color:#C89F6A;
+	color:#FFFFFF;
+	max-height:36px;
+}
+.icon_flag_chinese {
+    background: url(./../../../assets/general/template/default/img/flags/chinese_simplified.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.icon_flag_en {
+    background: url(./../../../assets/general/template/default/img/flags/english.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.m-footerli a {
+    color: #C89F6A;
+}
+.loginedhead {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #d4deea;
+	margin-top: 90px;
+}
+.logineddiv {
+	width: 75%;
+	height: 100%;
+	float: left;
+}
+.luser {
+	width: 50%;
+	height: 100%;
+	float: left;
+	line-height: 30px;
+	font-size: 12px;
+	padding-left: 10px;
+	color: #b94433;
+}
+.lbalance {
+	width: 50%;
+	height: 100%;
+	float: left;
+	line-height: 30px;
+	font-size: 12px;
+	color: #b94433;
+}
+.logoutdiv {
+	width: 80px;
+	height: auto;
+	float: right;
+}
+.gamebigbox {
+	height: 70px;
+}
+.f09 {
+	font-size: 11px;
+}
+.text-small{font-size: 12px;}
+.text-gold{color:#C89F6A;}
+.menu_game0_img{
+    content:url('../images/icon/mb_home_menu_ranking_off.png');
+}
+.menu_game0_img.active{
+    content:url('../images/icon/mb_home_menu_ranking_on.png');
+}
+.menu_game1_img{
+    content:url('../images/icon/mb_home_menu_live_off.png');
+}
+.menu_game1_img.active{
+    content:url('../images/icon/mb_home_menu_live_on.png');
+}
+.menu_game2_img{
+    content:url('../images/icon/mb_home_menu_sport_off.png');
+}
+.menu_game2_img.active{
+    content:url('../images/icon/mb_home_menu_sport_on.png');
+}
+.menu_game3_img{
+	content:url('../images/icon/mb_home_menu_esports_off.png');
+}
+.menu_game3_img.active{
+    content:url('../images/icon/mb_home_menu_esports_on.png');
+}
+.menu_game4_img{
+    content:url('../images/icon/mb_home_menu_fishing_off.png');
+}
+.menu_game4_img.active{
+    content:url('../images/icon/mb_home_menu_fishing_on.png');
+}
+.menu_game5_img{
+    content:url('../images/icon/mb_home_menu_slot_off.png');
+}
+.menu_game5_img.active{
+	content:url('../images/icon/mb_home_menu_slot_on.png');
+}
+
+.bg-footer{
+	border-top: none;
+	box-shadow: 0 -5px 8px -3px #ccd7e6;
+	border-radius: 8% 8% 0% 0%/25px;
+    -webkit-border-radius: 8% 8% 0% 0%/25px;
+    -moz-border-radius: 8% 8% 0% 0%/25px;
+	background-color: #fff;
+}
+
+.m-bottom-menu {
+    border-top: none;
+    box-shadow: 0 -5px 8px -3px #ccd7e6;
+    height: 50px;
+	position:fixed !important;
+	bottom: 0;
+    z-index: 900;
+	/*max-height:50px !important;*/
+    border-top: #000 0px solid;
+    position: fixed;
+    /* border-radius: 27px; */
+    border-radius: 8% 8% 0% 0%/25px;
+    -webkit-border-radius: 8% 8% 0% 0%/25px;
+    -moz-border-radius: 8% 8% 0% 0%/25px;
+    
+    font-size: 0.9rem;
+	padding: 5px 0 0 0;
+    background-color: #fff;
+}
+
+.m-bottom-menu a{
+	color: #111;
+	font-size: 11px;
+	/*flex: 1;	
+	position: relative;
+	*/
+}
+
+/*.m-bottom-menu a:hover span{
+	display: none;
+}
+*/
+.m-bottom-menu a span{
+	color: #fff;
+	/*position: absolute;
+	top: -3px;
+	left: auto;
+    right: 17px;*/
+	width: 16px;
+	height: 16px;
+	background-color: #fc3642;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: none;
+	font-size: 11px;
+}
+
+.m-bottom-menu a img{
+	height: 26px;
+	margin-bottom: 5px;
+}
+
+ .imgtransfer-to {
+	width: 35px;
+	margin-top: 37px;
+	margin-left: -10px;
+}
+.control-label {
+	font-weight: bold;
+	color: #000;
+	font-size: 12px;
+}
+.control-balance {
+	font-size: 16px;
+	color: #c69c00;
+}
+.txt_transfer {
+	width: 250px;
+	height: 32px;
+	color: black !important;
+	border-radius: 7px;
+	padding-right: 17px;
+	text-align: right;
+	border: 1px solid #bbbbbb;
+	background-color: #e3eaf1;
+	font-size: 16px;
+}
+.smallbtn-transfer {
+	width: 115px;
+	float: left;
+	height: 32px;
+	border: 2px solid #697dac;
+	border-radius: 12px;
+	font-size: 15px;
+	color: #fff;
+	background-color: #697dac;
+}
+.smallbtn-btn {
+	width: 115px;
+	height: 32px;
+	border: 2px solid #697dac;
+	font-size: 16px;
+	margin-top: 10px;
+	border-radius: 12px;
+	color: white;
+	background-color: #697dac;
+}
+.smallbtn-game {
+	width: 115px;
+	float: left;
+	height: 32px;
+	border: 2px solid #00a651;
+	border-radius: 12px;
+	font-size: 15px;
+	color: #fff;
+	background-color: #00a651;
+}
+.color1 {
+	background-color: #697dac !important;
+}
+.color2 {
+	background-color: #00a651 !important;
+	border: 2px solid #00a651 !important;
+}
+.color3 {
+	background-color: #c12020 !important;
+	border: 2px solid #c12020 !important;
+}
+.ui-input {
+	width: 97%!important;
+	margin: 10px 0 10px 0!important;
+	-ms-box-sizing:border-box!important;
+	-moz-box-sizing:border-box!important;
+	-webkit-box-sizing:border-box!important;
+	box-sizing:border-box!important;
+	text-indent: 42px!important;
+	padding-left: unset!important;
+}
+
+.ui-input2 {
+	width: 97%!important;
+	margin: 10px 0 10px 0!important;
+	-ms-box-sizing:border-box!important;
+	-moz-box-sizing:border-box!important;
+	-webkit-box-sizing:border-box!important;
+	box-sizing:border-box!important;	
+	padding: 0 5px;
+	font-size: 16px;
+    background: #F9fafc;
+    border: 1px solid #ccd7e6;
+	border-radius: 7px;
+    box-shadow: inset 0 2px 4px 0 #b8c3d6;
+    line-height: 40px;
+}
+
+.ui-select-type{
+  text-indent: 37px !important;
+}
+.infos {
+    text-align: justify;
+    margin-top: 20px;
+    background: #f8f9fe;
+    padding: 15px;
+	font-size:14px;
+}
+.infos p {
+	margin:0;
+	padding:0 0 8px;
+}
+
+.pb-10vh{
+	padding-bottom: 10vh;
+}
+
+.btn3 {	
+    background-color: #636975;    
+    transition: all 0.3s;    
+	border:0;
+}
+
+.btn-wallet{
+	color: #472901 !important;
+    background: #C89F6A;
+}

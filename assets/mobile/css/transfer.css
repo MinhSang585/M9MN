@@ -1,0 +1,249 @@
+﻿        .btn {
+            height: 40px;
+            line-height: 42px;
+            background: #bb9a55;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            border: none;
+            width: 100%;
+        }
+
+        .errmsg {
+            font-size: 12px;
+        }
+
+        .accordion dl,
+        .accordion-list {
+            border: 1px solid #ddd;
+        }
+
+            .accordion dl:after,
+            .accordion-list:after {
+                content: "";
+                display: block;
+                height: 1em;
+                width: 100%;
+                background-color: #dce2f1;
+            }
+
+        .accordion dd,
+        .accordion__panel {
+            background-color: #fff;
+            height: 500px !important;
+            font-size: 1em;
+            line-height: 1.5em;
+        }
+
+        /*.accordion p {
+            padding: 1em 2em 1em 2em;
+        }*/
+
+        .accordion {
+            position: relative;
+            /*background-color: #fff;*/
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 0 2em 0;
+        }
+
+        .accordionTitle,
+        .accordion__Heading {
+            background-color: #dce2f1;
+            text-align: right;
+            font-weight: 600;
+            font-size: 14px;
+            padding: 1em;
+            display: block;
+            text-decoration: none;
+            color: #333;
+            transition: background-color 0.5s ease-in-out;
+            border-bottom: 1px solid #c78bda;
+        }
+
+        .accordionTitle:before,
+        .accordion__Heading:before {
+            content: url('/mobile/assets/images/imgAddIcon.png?v=1.2');
+            font-size: 1.5em;
+            line-height: 0.5em;
+            float: left;
+            transition: -webkit-transform 0.3s ease-in-out;
+            transition: transform 0.3s ease-in-out;
+            transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+        }
+
+        .accordionTitleActive:before,
+        .accordionTitle.is-expanded:before {
+            content: url('/mobile/assets/images/imgMinusIcon.png?v=1.2');
+        }
+
+        .btnrefresh_img {
+            background-image: url('/web/Assets/img/shuaxin.png');
+            background-repeat: no-repeat;
+            background-position: 7px 3px;
+            background-size: 20px;
+            padding-left: 20px !important;
+        }
+
+        .btnreturn_img {
+            background-image: url('/web/Assets/img/hui.png');
+            background-repeat: no-repeat;
+            background-position: 7px 3px;
+            background-size: 20px;
+            padding-left: 20px !important;
+        }
+            
+            .accordionTitle:hover,
+            .accordion__Heading:hover {
+                opacity: .9;
+            }
+
+            .accordionTitleActive,
+            .accordionTitle.is-expanded {
+                background-color: #dce2f1;
+            }
+
+                
+
+        /*a.accordion-title.accordionTitle.js-accordionTrigger.is-collapsed.is-expanded::before{
+                    height:20px;
+                    width:20px;
+                }*/
+
+        .accordionItem {
+            height: auto;
+            overflow: hidden;
+            max-height: 50em;
+            transition: max-height 1s;
+        }
+
+        @media screen and (min-width: 48em) {
+            .accordionItem {
+                /*max-height: 15em;*/
+                transition: max-height 0.5s;
+            }
+        }
+
+        .accordionItem.is-collapsed {
+            max-height: 0;
+        }
+
+        .no-js .accordionItem.is-collapsed {
+            max-height: auto;
+        }
+
+        .animateIn {
+            -webkit-animation: accordionIn 0.45s normal ease-in-out both 1;
+            animation: accordionIn 0.45s normal ease-in-out both 1;
+        }
+
+        .animateOut {
+            -webkit-animation: accordionOut 0.45s alternate ease-in-out both 1;
+            animation: accordionOut 0.45s alternate ease-in-out both 1;
+        }
+
+        @-webkit-keyframes accordionIn {
+            0% {
+                opacity: 0;
+                -webkit-transform: scale(0.9) rotateX(-60deg);
+                transform: scale(0.9) rotateX(-60deg);
+                -webkit-transform-origin: 50% 0;
+                transform-origin: 50% 0;
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+
+        @keyframes accordionIn {
+            0% {
+                opacity: 0;
+                -webkit-transform: scale(0.9) rotateX(-60deg);
+                transform: scale(0.9) rotateX(-60deg);
+                -webkit-transform-origin: 50% 0;
+                transform-origin: 50% 0;
+            }
+
+            100% {
+                opacity: 1;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+
+        @-webkit-keyframes accordionOut {
+            0% {
+                opacity: 1;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+
+            100% {
+                opacity: 0;
+                -webkit-transform: scale(0.9) rotateX(-60deg);
+                transform: scale(0.9) rotateX(-60deg);
+            }
+        }
+
+        @keyframes accordionOut {
+            0% {
+                opacity: 1;
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+
+            100% {
+                opacity: 0;
+                -webkit-transform: scale(0.9) rotateX(-60deg);
+                transform: scale(0.9) rotateX(-60deg);
+            }
+        }
+
+        hr {
+            border-top: 1px solid #5a70c1 !important;
+        }
+
+        .gamesdiv {
+            width: 20%;
+            height: 100%;
+            border-right: 0.4px solid #5a70c1;
+            float: left;
+            text-align: center;
+            font-size: 16px;
+        }
+
+            .gamesdiv:hover {
+                background-color: aliceblue;
+            }
+
+        .gborderleft {
+            border-left: 0.4px solid #5a70c1;
+        }
+
+        
+
+        .btnsize {
+            width: 100px;
+            height: 30px;
+            background-color: #dce2f1;
+        }
+
+         .walletdiv .rowdiv:nth-child(2n) {
+            background-color: #f1d5ff;
+        }
+         
+         .refreshimg{
+             margin-top:5px;
+         }
+
+         .refreshimg-main{
+            height: 17px !important;
+            width: 15px !important;
+         }

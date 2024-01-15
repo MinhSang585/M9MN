@@ -1,0 +1,78 @@
+﻿.modal_txttransfer{
+            height: 50px;width: 300px;text-align: right;padding-right: 15px;font-size: 20px;
+            border-radius: 17px;
+            background-color:#e3eaf1;
+            border: 1px solid #bbbbbb;
+        }
+
+        .btncommon_small{
+            width: 93px;
+            height: 48px;
+            border: 2px solid #697dac;
+            border-radius: 12px;
+            margin-left: 5px;
+            font-size: 17px;
+            color: #fff;
+            background-color: #697dac;
+        }
+
+        .btncommon_large{
+            width:180px;height:48px;border: 2px solid #697dac;font-size:18px;border-radius:12px;color:white;background-color:#697dac
+        }
+
+
+        .btn_confirmTransfer{
+            background-color:#00a651;
+            border: 2px solid #00a651
+        }
+
+        
+        .color1{
+             background-color: #697dac !important;
+        }
+
+        .color2{
+             background-color:#00a651 !important; 
+             border: 2px solid #00a651 !important;
+        }
+
+        .color3{
+             background-color: #c12020 !important;
+             border: 2px solid #c12020 !important;
+        }
+
+        .div_walletpart{
+            margin:0 auto;width:400px;height:180px;
+        }
+
+        .ffl{
+            float:left;
+        }
+
+        .ffr{
+            float:right;
+        }
+
+        .walletarrow{
+            margin-top:45px;margin-left:28px
+        }
+
+        .control-label{
+            font-size:16px;font-weight:bold;color:#000
+        }
+
+        .control-balance{
+            font-size:30px;color:#c69c00;font-weight:bold;
+        }
+
+        .div_buttonpart{
+            margin:0 auto;width:500px;height:220px;margin-top:53px;
+        }
+
+        .div_buttonleftpart{
+            width:311px;height:48px;margin-top:20px;float:left
+        }
+
+        .div_buttonrightpart{
+            width:180px;height:48px;margin-top:20px;float:left;
+        }

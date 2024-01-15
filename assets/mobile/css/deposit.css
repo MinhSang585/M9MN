@@ -1,0 +1,183 @@
+﻿/* Style the tab */
+
+input {
+	/* border: 1px solid #8aaada; */
+	border: none;
+}
+
+.tab {
+	overflow: hidden;
+	background-color: #f1f1f1;
+	width: 100%;
+	padding: 10px;
+}
+
+
+/* Style the buttons inside the tab */
+
+
+.depoTabs {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background:none;
+}
+.tablinks {
+    display: block;
+    flex: 0 1 100%;
+    list-style-type: none;
+}
+
+.tab li {
+	background-color: #ffffff;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	line-height:38px;
+	transition: 0.3s;
+	font-size: 14px;
+	border:1px solid #376594;
+    border-radius:5px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.tab > li > a {
+    position: relative;
+    display: block;
+    /* padding: 10px 15px; */
+}
+
+/* Change background color of buttons on hover */
+
+.tab li:hover {
+	 background: linear-gradient(#f9f9f9, #ffb399, #efa790, white);
+}
+
+.tab li:hover > a {
+	color: #fff;
+}
+
+/* Create an active/current tablink class */
+
+.tab li.active {
+	  background: linear-gradient(#f9f9f9, #ffb399, #efa790, white);
+      border:1px solid #efa790;
+}
+
+.tab li.active > a{
+	color: white;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+	display: none;
+	border-top: none;
+}
+
+
+/* Style the close button */
+
+.topright {
+	float: right;
+	cursor: pointer;
+	font-size: 28px;
+}
+
+.topright:hover {
+	color: red;
+}
+
+.depo_100 {
+	width: 100% !important;
+}
+
+.depo_50 {
+	width: 50% !important;
+}
+
+.depo_33 {
+	width: 33% !important;
+}
+
+.showblock {
+	display: block;
+}
+
+.btn {
+	height: 40px;
+	line-height: 42px;
+	background: #bb9a55;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	border: none;
+	width: 100%;
+}
+
+.errmsg {
+	font-size: 12px;
+}
+
+.imgcss {
+	width: 100px !important;
+	height: 100px !important;
+    margin: 0 auto;
+}
+
+#btnIMGBank.inactive {
+	background-image:url('../images/profile/imgBtnBankUnselected.png');
+    background-size: cover;
+}
+
+#btnIMGCC.inactive {
+    background-image:url('../images/profile/imgBtnCreditCardUnselected.png');
+    background-size: cover;
+}
+
+#btnIMGBank.active {
+	background-image:url('../images/profile/imgBtnBankDefault.png');
+    background-size: cover;
+}
+
+#btnIMGCC.active {
+    background-image:url('../images/profile/imgBtnCreditCardDefault.png');
+    background-size: cover;
+}
+
+#btnIMGBank:hover {
+	background-image:url('../images/profile/imgBtnBankDefault.png');
+    background-size: cover;
+}
+
+#btnIMGCC:hover {
+    background-image:url('../images/profile/imgBtnCreditCardDefault.png');
+    background-size: cover;
+}
+
+.channel_div {
+	width: 90%;
+	height: 100px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+.channel_type {
+	width: 50%;
+	height: 100%;
+	float: left;
+	margin-right: 0 !important;
+	text-align: center;
+}

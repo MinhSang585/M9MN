@@ -1,0 +1,532 @@
+@charset "UTF-8";
+html, body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, button,
+textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 1em;
+    font-family: 'Microsoft Yahei', sans-serif;
+    color: #676666;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    -ms-box-sizing: border-box; /* IE 9 */
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Safari 和 Chrome */
+    -o-box-sizing: border-box;
+}
+
+[placeholder] {
+    text-overflow: ellipsis;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.h1 {
+    font-size: 200%;
+    line-height: 220%;
+}
+
+.h2 {
+    font-size: 150%;
+    line-height: 170%;
+}
+
+.h3 {
+    font-size: 120%;
+    line-height: 150%;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.indent {
+    text-indent: 2em;
+}
+
+.center {
+    text-align: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.ui-hidden{
+    display: none !important;
+}
+
+input {
+    border: 1px solid #8aaada;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+}
+
+font[color=red] {
+    font-weight: 900;
+}
+
+.space-1 {
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+}
+
+.space-2 {
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+}
+
+.space-3 {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+}
+
+.load-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -moz-transform: translate(-50%, -50%); /* Firefox */
+    -webkit-transform: translate(-50%, -50%); /* Safari 和 Chrome */
+    -o-transform: translate(-50%, -50%);
+}
+
+.load-circle:before {
+    display: block;
+    width: 2em;
+    height: 2em;
+    border: 4px rgba(225, 109, 0, 0.4) solid;
+    border-top: 4px #E16D00 solid;
+    border-radius: 50%;
+    content: '';
+    animation: spCircRot 0.6s infinite linear;
+    -moz-animation: spCircRot 0.6s infinite linear;
+    -webkit-animation: spCircRot 0.6s infinite linear;
+    -o-animation: spCircRot 0.6s infinite linear;
+    -ms-animation: spCircRot 0.6s infinite linear;
+}
+
+.relative {
+    position: relative;
+}
+
+body.show-contact {
+    overflow: hidden !important;
+}
+
+body.show-contact > .common-contact {
+    right: 0;
+    pointer-events: auto;
+}
+
+body.show-contact > .common-screen {
+    opacity: 1 !important;
+    pointer-events: auto;
+}
+
+.main-wrap {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.main-wrap .container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-height: 100%;
+}
+
+.main-wrap .container .content {
+    display: inline-block;
+    width: 100%;
+}
+
+.common-contact {
+    position: fixed;
+    top: 0;
+    right: -14em;
+    z-index: 6;
+    display: inline-block;
+    height: 100%;
+    overflow-y: auto;
+    font-size: 70%;
+    background-color: #7D6549;
+    color: #fff;
+    pointer-events: none;
+    transition: right 0.3s ease-in-out;
+    -webkit-transition: right 0.3s ease-in-out;
+    -moz-transition: right 0.3s ease-in-out;
+    -o-transition: right 0.3s ease-in-out;
+    -ms-transition: right 0.3s ease-in-out;
+}
+
+.common-contact .menu-side {
+    width: 13em;
+    height: 100%;
+    padding: .5em;
+    text-align: left;
+}
+
+.common-contact .menu-side .item {
+    border-bottom: 1px solid #B7ABAB;
+    letter-spacing: 2px;
+}
+
+.common-contact .menu-side .item.active { /*background-color: #AB4F4F; */
+}
+
+.common-contact .menu-side .item:hover { /*background-color: #AB4F4F; */
+}
+
+.common-contact .menu-side .item .icon {
+    font-size: 400%;
+}
+
+.common-contact .menu-side .item a {
+    display: inline-block;
+}
+
+.common-contact .menu-side .item a:link {
+    color: #fff;
+}
+
+.common-contact .menu-side .item a:visited {
+    color: #fff;
+}
+
+.common-contact .menu-side .item a:hover {
+    color: #fff;
+}
+
+.common-contact .menu-side .item a:active {
+    color: #fff;
+}
+
+.common-contact .menu-side .item div {
+    display: inline-block;
+}
+
+.common-contact .menu-side .item img {
+    width: 100%;
+}
+
+.common-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 6, 6, 0.6);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.common-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    /*background: #303537;*/
+    color: #fff;
+    overflow: hidden;
+}
+
+.common-header .header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    display: inline-block;
+    /*font-size: 1.6em;*/
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); /* IE 9 */
+    -moz-transform: translate(-50%, -50%); /* Firefox */
+    -webkit-transform: translate(-50%, -50%); /* Safari 和 Chrome */
+    -o-transform: translate(-50%, -50%);
+}
+
+.common-header .header-title .logo {
+    width: 40px;
+    height: 34px;
+    background: url(../images/logo2.png) no-repeat;
+    background-size: 40px;
+}
+
+.common-header > .segments {
+    float: left;
+}
+
+.common-header .left-button {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 100%;
+}
+
+.common-header .right-button {
+    float: right;
+    padding-right: .5em;
+    font-size: 130%;
+}
+
+.common-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 4;
+    width: 100%;
+    overflow-y: hidden;
+    background-color: #fff;
+    box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.12), 0 -1px 4px rgba(0, 0, 0, 0.24);
+    -ms-box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.12), 0 -1px 4px rgba(0, 0, 0, 0.24); /* IE 9 */
+    -moz-box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.12), 0 -1px 4px rgba(0, 0, 0, 0.24); /* Firefox */
+    -webkit-box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.12), 0 -1px 4px rgba(0, 0, 0, 0.24); /* Safari 和 Chrome */
+    -o-box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.12), 0 -1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.common-footer .action { /*border-top: 1px solid #aaa; */
+    white-space: nowrap;
+}
+
+.common-footer .action .item { /*float:left; */ /*width: 20%; */
+    display: inline-block;
+    width: 4em;
+    text-align: center;
+    color: #9C9C9C;
+}
+
+.common-footer .action .item .icon {
+    font-size: 1.5em;
+}
+
+.common-footer .action .item:FIRST-CHILD {
+    border-left: 0;
+}
+
+.common-footer .action .item.active {
+    color: #FFA34C;
+}
+
+.common-footer .action .text {
+    font-size: 80%;
+}
+
+.header-margin {
+    display: inline-block;
+    width: 100%;
+    height: 2.5em;
+}
+
+.footer-margin {
+    display: inline-block;
+    width: 100%;
+    height: 3.5em;
+}
+
+#touclick {
+    top: 50% !important;
+    margin: 0 !important;
+    transform: translate(-50%, -50%) scale(0.8);
+}
+
+@-webkit-keyframes spCircRot {
+    from {
+        transform: rotate(0deg);
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -moz-transform: rotate(0deg); /* Firefox */
+        -webkit-transform: rotate(0deg); /* Safari 和 Chrome */
+        -o-transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+        -ms-transform: rotate(359deg); /* IE 9 */
+        -moz-transform: rotate(359deg); /* Firefox */
+        -webkit-transform: rotate(359deg); /* Safari 和 Chrome */
+        -o-transform: rotate(359deg);
+    }
+}
+
+@-ms-keyframes spCircRot {
+    from {
+        transform: rotate(0deg);
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -moz-transform: rotate(0deg); /* Firefox */
+        -webkit-transform: rotate(0deg); /* Safari 和 Chrome */
+        -o-transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+        -ms-transform: rotate(359deg); /* IE 9 */
+        -moz-transform: rotate(359deg); /* Firefox */
+        -webkit-transform: rotate(359deg); /* Safari 和 Chrome */
+        -o-transform: rotate(359deg);
+    }
+}
+
+@-moz-keyframes spCircRot {
+    from {
+        transform: rotate(0deg);
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -moz-transform: rotate(0deg); /* Firefox */
+        -webkit-transform: rotate(0deg); /* Safari 和 Chrome */
+        -o-transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+        -ms-transform: rotate(359deg); /* IE 9 */
+        -moz-transform: rotate(359deg); /* Firefox */
+        -webkit-transform: rotate(359deg); /* Safari 和 Chrome */
+        -o-transform: rotate(359deg);
+    }
+}
+
+@-o-keyframes spCircRot {
+    from {
+        transform: rotate(0deg);
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -moz-transform: rotate(0deg); /* Firefox */
+        -webkit-transform: rotate(0deg); /* Safari 和 Chrome */
+        -o-transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+        -ms-transform: rotate(359deg); /* IE 9 */
+        -moz-transform: rotate(359deg); /* Firefox */
+        -webkit-transform: rotate(359deg); /* Safari 和 Chrome */
+        -o-transform: rotate(359deg);
+    }
+}
+
+@keyframes spCircRot {
+    from {
+        transform: rotate(0deg);
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -moz-transform: rotate(0deg); /* Firefox */
+        -webkit-transform: rotate(0deg); /* Safari 和 Chrome */
+        -o-transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+        -ms-transform: rotate(359deg); /* IE 9 */
+        -moz-transform: rotate(359deg); /* Firefox */
+        -webkit-transform: rotate(359deg); /* Safari 和 Chrome */
+        -o-transform: rotate(359deg);
+    }
+}
+
+#comm-back-button {
+    background: url(../../mobile/images/usercenter/icon_arrow_back.png) no-repeat;
+    display: inline-block;
+    z-index: 99;
+    width: 23px;
+    height: 20px;
+    background-size: 50%;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+
+.page-block {
+    height: 100%;
+}
+
+.mui-textfield {
+    padding-top: 0px;
+}
+
+/*app 提示窗口*/
+.my-alert-box {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+.my-alert {
+    position: absolute;
+    width: 76%;
+    min-height: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #333;
+    padding: 10px 2%;
+    left: 10%;
+    top: 30%;
+}
+
+
+.alert-btn {
+    display: inline-block;
+    background: #bb9a55;
+    width: 150px;
+    height: 38px;
+    line-height: 36px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.my-alert-title {
+    text-align: center;
+    font-size: 16px;
+    color: #656565;
+    padding: 5px 0;
+}
+
+.my-alert-con, .buttons {
+    text-align: center;
+}
+
+.my-alert-con {
+    padding: 15px 0;
+    color: red;
+    font-size: 15px;
+}
+
+.p-b10 {
+    padding-bottom: 10px;
+}
+
+.copy {
+    background: #fe8000;
+    border-radius: 5px;
+    color: #fff;
+    top: 20px;
+    padding: 0px 20px;
+}
+

@@ -1,0 +1,109 @@
+﻿.masthead{
+    background-size: cover;
+    color: #fff;
+    display: table;
+    height: auto;
+    position: relative;
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid grey;
+    margin-top:10px;
+}
+
+.help-block3 {
+    display: block;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #b5b5b5;
+    width: 5px;
+    float: left;
+}
+
+table {
+    width:90%;
+    margin:0 auto;
+    padding:20px;
+}
+
+th {
+    text-align:center;
+    font-weight:bold;
+    color:blue;
+    font-size:15px;
+}
+
+/* The Modal (background) */
+.modalreferral {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalreferral-content {
+    background: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 71%;
+}
+
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    opacity: unset !important;
+    cursor:pointer;
+}
+
+.refTable {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+    background-color:#fff !important;
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+
+.dateinput{
+    width:165px;
+}
+
+.btnsearch_img{
+    /*background-image: url(../../Assets/img/search.png);*/
+    background-repeat: no-repeat;
+    background-position: 10px 9px;
+    background-size: 20px;
+    padding-left: 20px !important;
+}
+
+.btncopy_img{
+    /*background-image: url(../../Assets/img/copy.png);*/
+    background-repeat: no-repeat;
+    background-position: 10px 9px;
+    background-size: 20px;
+    padding-left: 20px !important;
+}
+
+.btnqr_img{
+    /*background-image: url(../../Assets/img/qr.png);*/
+    background-repeat: no-repeat;
+    background-position: 10px 9px;
+    background-size: 20px;
+    padding-left: 20px !important;
+}
+
+.ui-btn {
+    display: inline-block;
+    width: 120px;
+}

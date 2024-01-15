@@ -1,0 +1,54 @@
+.layui-layer.tips-layer {
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+}
+.layui-layer.tips-layer .layui-layer-title {
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+    font-size: 16px;
+    color: #fff;
+    background: -webkit-gradient(linear,left top, right top,from(#9968fd),to(#fc49af)) no-repeat center top;
+    background: -webkit-linear-gradient(left,#9968fd,#fc49af) no-repeat center top;
+    background: -o-linear-gradient(left,#9968fd,#fc49af) no-repeat center top;
+    background: linear-gradient(90deg,#9968fd,#fc49af) no-repeat center top;
+}
+.layui-layer.tips-layer .layui-layer-title {
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+    font-size: 16px;
+    color: #fff;
+    background: -webkit-gradient(linear,left top, right top,from(#9968fd),to(#fc49af)) no-repeat center top;
+    background: -webkit-linear-gradient(left,#9968fd,#fc49af) no-repeat center top;
+    background: -o-linear-gradient(left,#9968fd,#fc49af) no-repeat center top;
+    background: linear-gradient(90deg,#9968fd,#fc49af) no-repeat center top;
+}
+.layui-layer.tips-layer .layui-layer-content {
+    text-align: center;
+}
+.layui-layer.tips-layer .input-group {
+    position: relative;
+    margin-bottom: 15px;
+    text-align: left;
+    padding: 0 25px;
+}
+.layui-layer.tips-layer .input-group>label {
+    display: inline-block;
+    width: 60px;
+}
+.layui-layer.tips-layer .input-group>input{
+    width: 235px;
+    height: 30px;
+    line-height: 28px;
+    padding-left:5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+#imgTryCode{
+    position: absolute;
+    top: 2px;
+    right: 42px;
+    height: 26px;
+    border-radius: 3px;
+}

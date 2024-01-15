@@ -1,0 +1,756 @@
+@CHARSET "UTF-8";
+
+body {
+    margin-top: 0px !important;
+}
+
+@font-face {
+    font-family: HYXiaoBoHuaBaoHeiW;
+    src: url('/css/font/HYXiaoBoHuaBaoHeiW.ttf');
+}
+.top_nav .navbar .navbar-list {
+    position: relative;
+}
+
+
+.header_top {
+    background: #fff !important;
+
+}
+
+.forgetpwd,
+.login_after li, .login_after li a {
+    color: #697dac;
+}
+
+.top_nav .dropdown {
+    width: 714px;
+}
+
+/* 轮播 */
+#banner {
+    position: relative;
+    /*top: -60px;*/
+    width: 100%;
+    max-height: 530px;
+    text-align: center;
+    z-index: 5;
+}
+
+#banner .loading {
+    vertical-align: middle;
+}
+
+#banner .ei-slider {
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#banner .ei-slider-loading {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: url(../images/lhtbg.jpg);
+    color: #fff;
+    text-align: center;
+    line-height: 541px;
+}
+
+#banner .ei-slider-large {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#banner .ei-slider-large li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+#banner .ei-slider-large li img {
+    width: 100%;
+}
+
+#banner .ei-title {
+    position: absolute;
+    right: 50%;
+    margin-right: 13%;
+    top: 30%;
+}
+
+#banner .ei-title h2, .ei-title h3 {
+    text-align: right;
+}
+
+#banner .ei-title h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #b5b5b5;
+}
+
+#banner .ei-title h3 {
+    font-size: 70px;
+    line-height: 70px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.slick-dots li {
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 1px;
+}
+
+.slick-dots li a {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.slick-slide a img {
+    width: 100%;
+    max-height: 530px;
+}
+
+.slideshow img {
+    width: 100%;
+}
+
+.slick-dots {
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 44%;
+}
+
+.slick-dots li a {
+    background: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.slick-dots li.slick-active a {
+    background: url(/images/rainbow_dot.png) no-repeat center;
+    background-size: 100%;
+    width: 34px;
+    height: 10px;
+}
+
+#content_bg {
+   background: url(../images/index/index-main-bg-1.jpg?v=15) center top;
+    overflow: hidden;
+}
+
+/* 最新消息 */
+#banner .news {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+/*主体内容*/
+.content-main-bg {
+    padding-bottom: 25px;
+    
+}
+
+.game-lists-container {
+    padding: 25px 0 0;
+}
+
+.below-game-content,
+.above-game-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.above-game-content {
+    height: 462px;
+}
+
+
+
+.index_gameframe_1 {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 633px;
+    height: 461px;
+    background: url(../images/index/live-game.png?v=1.4) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.index_gameframe_2{
+    position: absolute;
+    top: 0;
+    right: -20px;
+    width: 590px;
+    height: 241px;
+    background: url(../images/index/sport-game.png?v=1.4) no-repeat center top;
+    background-size: 100% 100%;
+}
+.game-lists-container a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.index_gameframe_1_context {
+    position: absolute;
+    right: 135px;
+    bottom: 15px;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-style: italic;
+}
+.index_gameframe_4_context .title,
+.index_gameframe_1_context .title{
+    text-align: right;
+}
+.index_gameframe_4_context{
+    position: absolute;
+    right: 54px;
+    bottom: 15px;
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    font-style: italic;
+}
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+}
+
+ .desc {
+    font-size: 18px;
+     color: #fff;
+}
+
+.index_gameframe_2_div {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    height: 462px;
+    font-style: italic;
+}
+
+
+
+.index_gameframe_3_context {
+    position: absolute;
+    left: 40px;
+    bottom: 15px;
+    text-align: left;
+    color: #fff;
+}
+
+.index_gameframe_2_div .t1,
+.below-game-content .esports {
+    cursor: pointer;
+}
+
+.index_gameframe_3 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 210px;
+    width: 633px;
+    background: url(../images/index/slots-game.png?v=1.3) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.index_gameframe_4 {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    width: 560px;
+    height: 210px;
+    background: url(../images/index/lottery-game.png?v=1.3) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+.item {
+    transition: all .2s;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.item:hover {
+    transform: scale(1.03);
+}
+
+.below-game-content {
+    position: relative;
+    height: 210px;
+    margin: 15px 0;
+}
+
+
+
+.index_gameframe_5_context {
+    position: absolute;
+    left: 80px;
+    bottom: 15px;
+    text-align: left;
+    color: #fff;
+    font-style: italic;
+}
+
+.index_gameframe_2_context{
+    position: absolute;
+    left: 40px;
+    bottom: 15px;
+    text-align: left;
+    color: #fff;
+    font-style: italic;
+}
+
+
+
+
+.index_gameframe_5 {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    width: 633px;
+    height: 210px;
+    background: url(../images/index/fishing-game.png?v=1.3) no-repeat center top;
+    background-size: 100% 100%;
+}
+
+
+.login-btn-container {
+    display: inline-block;
+    width: 42%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.last_item {
+    text-align: right;
+}
+
+.quick-promotion {
+    padding: 12px;
+}
+
+.quick-promotion .pro-intro li {
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+
+.login-btn-container > a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fff;
+    background: #af9663;
+    border: none;
+}
+
+#footer-bg .footer-advantage {
+    padding: 50px 0 100px;
+}
+
+.advantage {
+    height: 200px;
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 70px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.advantage.night {
+    background: url(/images/index/advantages.png) no-repeat center top;
+}
+
+.advantage-cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.advantage-cont .advan_box {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    display: inline-block;
+    width: 33%;
+    padding: 67px 0;
+    vertical-align: top;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.advantage-cont .advan_box .link-cont {
+    display: block;
+    text-align: left;
+}
+
+.advan_box .help-link {
+    display: flex;
+    height: 67px;
+
+}
+.help-link-icon{
+    height: 72px;
+    width: 54px;
+    margin-right: 10px;
+    background: url(../images/web-icon3.png) no-repeat 0 -162px;
+}
+
+.iwin-link-icon{
+   height: 72px;
+    width: 108px;
+    margin-right: 10px;
+    background: url(../images/index/imgIWinLogo.png) no-repeat 0 0px;
+}
+.advan_box .form-link {
+    display: flex;
+    height: 67px;
+
+}
+.form-link-icon{
+    height: 58px;
+    width: 58px;
+    margin-top: 7px;
+    margin-right: 10px;
+    background: url(../images/web-icon3.png) no-repeat -101px -168px;
+}
+
+.advantage-cont .advan_box:hover {
+    padding: 57px 0;
+}
+
+.advan_box .agent-link {
+    display: flex;
+    height: 67px;
+}
+.agent-link-icon{
+    height: 70px;
+    width: 70px;
+    margin-top: 1px;
+    margin-right: 10px;
+    background: url(../images/web-icon3.png) no-repeat -198px -164px;
+}
+.advan_box .link-title {
+    padding: 0 0 5px;
+    font-size: 22px;
+    color: #666;
+    font-weight: bold;
+}
+
+
+.advantage.night .advan_box .link-title {
+    color: #fff;
+}
+
+.advan_box .link-text {
+    font-size: 18px;
+    color: #999;
+}
+
+.advantage.night .advan_box .link-text {
+    color: #8e9abc;
+}
+
+#header_friendPoint2 {
+    display: none;
+}
+
+
+.content-main-bg.night {
+    background: url(../images/index/index-main-bg-n.jpg) no-repeat center top;
+}
+
+.layui-layer.tips22-layer {
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+}
+
+.layui-layer.tips22-layer .layui-layer-content {
+    text-align: center;
+}
+
+.layui-layer.tips22-layer .layui-layer-title {
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+    font-size: 16px;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, right top, from(#9968fd), to(#fc49af)) no-repeat center top;
+    background: -webkit-linear-gradient(left, #9968fd, #fc49af) no-repeat center top;
+    background: -o-linear-gradient(left, #9968fd, #fc49af) no-repeat center top;
+    background: linear-gradient(90deg, #9968fd, #fc49af) no-repeat center top;
+}
+
+.layui-layer.tips22-layer .layui-layer-btn {
+    text-align: center;
+}
+
+.layui-layer.tips22-layer a {
+    min-width: 90px;
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    background: #697dac;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.layui-layer.tips-layer {
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+}
+
+.layui-layer.tips-layer .layui-layer-content {
+    text-align: center;
+}
+
+.layui-layer.tips-layer .layui-layer-title {
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+    font-size: 16px;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, right top, from(#9968fd), to(#fc49af)) no-repeat center top;
+    background: -webkit-linear-gradient(left, #9968fd, #fc49af) no-repeat center top;
+    background: -o-linear-gradient(left, #9968fd, #fc49af) no-repeat center top;
+    background: linear-gradient(90deg, #9968fd, #fc49af) no-repeat center top;
+}
+
+.layui-layer.tips-layer .layui-layer-btn {
+    text-align: center;
+}
+
+.layui-layer.tips-layer .layui-layer-btn1,
+.layui-layer.tips-layer .layui-layer-btn0 {
+    min-width: 90px;
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    background: #697dac;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.layui-layer.tips-layer .layui-layer-btn1 {
+    background: #dedede;
+}
+
+.layui-layer.tips-layer .input-group {
+    margin: 8px 0;
+}
+
+#hot {
+    right: 0;
+}
+
+.slideshow_left, .slideshow_right {
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    opacity: .5;
+    background: #000;
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+
+.slideshow_left {
+    top: 43%;
+    left: 100px;
+}
+
+.slideshow_right {
+    top: 43%;
+    right: 100px;
+}
+
+.slide-left, .slide-right {
+    width: 12px;
+    height: 36px;
+    background-size: 100%;
+    display: inline-block;
+    position: relative;
+    top: 17px;
+
+}
+
+.slide-left {
+    background: url(../images/slide-left.png) no-repeat center;
+}
+
+.slide-right {
+    background: url(../images/slide-right.png) no-repeat center;
+}
+
+
+
+/*首頁弹窗 start*/
+
+#modal-activity {
+    display: none;
+    margin-top: -25px;
+}
+
+#modal-activity .modal-dialog {
+    width: 763px;
+    height: 645px;
+    background: none;
+    margin: 50px auto;
+}
+
+#modal-activity .modal-dialog .close {
+    position: relative;
+    top: -631px;
+    right: -615px;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    float: left;
+}
+
+#modal-activity .huodong-box {
+    position: relative;
+    padding: 200px 130px 120px;
+    width: 100%;
+    height: 100%;
+}
+
+#modal-activity .huodong-box .quick-login {
+    margin-right: 11px;
+    margin-left: 4px;
+    padding: 22px 22px 0;
+}
+
+.com-title {
+    margin: 5px auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #af9663;
+    text-align: center;
+}
+
+#modal-activity .huodong-box .quick-login > div {
+    margin-bottom: 8px;
+}
+
+#modal-activity .huodong-box .quick-login > div input {
+    border: 1px solid #af9663;
+    padding: 2px;
+}
+
+/*弹窗*/
+#modal-activity .huodong-box .huodong-box-text {
+    width: 100%;
+    height: 315px;
+    overflow: hidden;
+    float: left;
+}
+
+#modal-activity .huodong-box .huodong-box-text h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    background: linear-gradient(0deg, #9968fd, #fc49af);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+#modal-activity .huodong-box .huodong-box-text .text1 {
+    height: 265px;
+    overflow: auto;
+    line-height: 35px;
+    font-size: 16px;
+    color: #fff;
+}
+
+#modal-activity .browser {
+    position: absolute;
+    left: 20px;
+    top: 262px;
+}
+
+#modal-activity .browser a {
+    width: 145px;
+    height: 38px;
+}
+
+#modal-activity .reg-tip {
+    width: 450px;
+    height: 97px;
+    margin: 0 auto;
+    padding-top: 32px;
+    line-height: 1.5;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+#modal-activity .reg-tip .icon-tip {
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    border: 4px solid #ed7b1a;
+}
+
+#modal-activity .reg-tip .icon-tip span {
+    display: block;
+    width: 44px;
+    height: 36px;
+    text-align: center;
+    border: 1px solid #fff;
+    background: #ed7b1a;
+    color: #fff;
+    padding-top: 8px;
+}
+
+#modal-activity .reg-tip .tishi-tip {
+    padding: 20px 0 0 50px;
+    height: 62px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #ffec8f;
+}
+
+/*首頁弹窗 end*/

@@ -1,0 +1,742 @@
+.title {
+	font-size: 15px !important;
+	color: black !important;
+}
+
+.active {
+	display: block;
+}
+
+.disactive {
+	display: none;
+}
+
+.noticefonts{
+    color:#858f99;
+}
+
+.profileHeader {
+	font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #a4705a !important;
+    background: linear-gradient(to left, #ffe6dd , #f2b6a2);
+}
+
+.personal-cont {
+	padding: 45px 20px 90px 20px !important;
+}
+
+.dropdown-content a {
+	margin-left: 30px;
+	background-color: #dce2f1;
+}
+
+.icon_size_menu{
+    width: 24px;
+	height: 24px;
+    display:inline-block;
+    position:inherit;
+    top:5px;
+    left:-20px;
+	background-size: cover;
+}
+
+.icon_menu_deposit{
+    background: url('../images/userpanel/wallet-deposit-off.png');
+}
+
+.icon_menu_deposit.active{
+    background: url('../images/userpanel/wallet-deposit-on.png');
+}
+
+.icon_menu_with{
+    background: url('../images/userpanel/wallet-withdraw-off.png');
+}
+
+.icon_menu_with.active{
+    background: url('../images/userpanel/wallet-withdraw-on.png');
+}
+
+.icon_menu_transfer{
+    background: url('../images/userpanel/wallet-transfer-off.png');
+}
+
+.icon_menu_transfer.active{
+    background: url('../images/userpanel/wallet-transfer-on.png');
+}
+
+.icon_menu_history{
+    background: url('../images/userpanel/wallet-history-off.png');
+}
+
+.icon_menu_history.active{
+    background: url('../images/userpanel/wallet-history-on.png');
+}
+
+.icon_menu_profile{
+    background: url('../images/userpanel/wallet-detail-off.png');
+}
+
+.icon_menu_profile.active{
+    background: url('../images/userpanel/wallet-detail-on.png');
+}
+
+.icon_menu_maintenance{
+    background: url('../images/userpanel/wallet-maintenance-off.png');
+}
+
+.icon_menu_maintenance.active{
+    background: url('../images/userpanel/wallet-maintenance-on.png');
+}
+
+
+.icon_size{
+    width: 18px;
+	height: 19px;
+	margin-top: 10px;
+	background-size: cover;
+}
+
+.icon-qian {
+	background: url('../images/userpanel/icon-input-amount.png');
+}
+
+.icon-promotion {
+	background: url('../images/userpanel/icon-input-promo.png');
+}
+
+.icon-yinhang{
+    background: url('../images/userpanel/icon-input-bank.png');
+}
+
+.icon-remark{
+    background: url('../images/userpanel/icon-input-remark.png');
+}
+
+.icon-password{
+    background: url('../images/userpanel/icon-input-pw.png');
+}
+
+.icon-trffrom{
+    background: url('../images/userpanel/icon-input-fromacc.png');
+}
+.icon-trfto{
+    background: url('../images/userpanel/icon-input-toacc.png');
+}
+
+.icon-history{
+    background: url('../images/userpanel/icon-input-type.png');
+}
+
+.icon-date{
+    background: url('../images/userpanel/icon-input-startdate.png');
+}
+
+.icon-user{
+    background: url('../images/userpanel/icon-input-nickname.png');
+}
+
+.icon-verify{
+    background: url('../images/userpanel/icon-input-verify.png');
+}
+
+/*.icon-qian {
+	background: url('/web/assets/images/UserPanel/icon-input-amount.png');
+	width: 18px;
+	height: 19px;
+	margin-top: 10px;
+	background-size: cover;
+}*/
+
+.icon-qian:before {
+	content: none !important;
+}
+
+.depo_100 {
+	width: 100% !important;
+}
+
+.depo_50 {
+	width: 50% !important;
+}
+
+.depo_33 {
+	width: 33% !important;
+}
+
+
+/*.icon-zhuanzhang {
+            background: url(assets/img/transfer2.png);
+            width: 25px;
+            height: 25px;
+            margin-top: 10px;
+            background-size: cover;
+        }
+
+        .icon-zhuanzhang:before {
+            content:none !important;
+        }*/
+
+.common-lists li div .select-cont1 .ui-select-type {
+	border-left: 2px solid #dfdfdf !important;
+}
+
+input[type=text][readonly] {
+	background-color: transparent !important;
+}
+
+
+/* Style the tab */
+
+.tab {
+	float: left;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	width: 30%;
+	height: 300px;
+}
+
+
+/* Style the buttons inside the tab */
+
+.tab button {
+	display: block;
+	background-color: inherit;
+	color: black;
+	padding: 22px 16px;
+	width: 100%;
+	border: none;
+	outline: none;
+	text-align: left;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+	background-color: #ddd;
+}
+
+
+/* Create an active/current "tab button" class */
+
+.tab button.active {
+	background-color: #ccc;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+	float: left;
+	padding: 0px 12px;
+	border: 1px solid #ccc;
+	border-left: none;
+	height: 300px;
+}
+
+.personal-cont {
+	padding: 90px 20px;
+	background: #fff;
+}
+
+
+/* dropdown css */
+
+.dropbtn {
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.dropdown-content {
+	display: none;
+	position: inherit;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	width: 100%;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 0px 80px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+
+.mainwalletdiv {
+	width: 90%;
+	height: 50px;
+	margin: 0 auto;
+	background: #e4e4e4;
+	margin-bottom: 20px;
+	margin-top: -30px;
+}
+
+.mainname {
+	width: 25%;
+	float: left;
+	text-align: center;
+	line-height: 50px;
+	font-size: 15px !important;
+	font-weight: bold;
+}
+
+.mainbalance {
+	width: 25%;
+	float: left;
+	text-align: right;
+	line-height: 50px;
+	font-size: 15px !important;
+	font-weight: bold;
+}
+
+.mainfunction {
+	width: 50%;
+	float: left;
+	text-align: right;
+	padding-right: 30px;
+}
+
+.waldiv {}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lato";
+}
+
+.heading-primary {
+	font-size: 2em;
+	padding: 2em;
+	text-align: center;
+}
+
+.accordion dl,
+.accordion-list {
+	border: 1px solid #ddd;
+}
+
+.accordion dl:after,
+.accordion-list:after {
+	content: "";
+	display: block;
+	height: 1em;
+	width: 100%;
+	background-color: #dce2f1;
+}
+
+.accordion dd,
+.accordion__panel {
+	background-color: #fff;
+	height: 400px !important;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.accordion p {
+	padding: 0em 2em 1em 2em;
+}
+
+.accordion {
+	position: relative;
+	background-color: #fff;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 0 2em 0;
+}
+
+.accordionTitle,
+.accordion__Heading {
+	background-color: #dce2f1;
+	text-align: center;
+	font-weight: 700;
+	padding: 2em;
+	display: block;
+	text-decoration: none;
+	color: #333;
+	transition: background-color 0.5s ease-in-out;
+	border-bottom: 1px solid #c78bda;
+}
+
+.accordionTitle:before,
+.accordion__Heading:before {
+	content: url('/web/assets/images/profile/imgAddIcon.png');
+	font-size: 1.5em;
+	line-height: 0.5em;
+	float: left;
+	transition: -webkit-transform 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.accordionTitle:hover,
+.accordion__Heading:hover {
+	opacity: .9;
+}
+
+.accordionTitleActive,
+.accordionTitle.is-expanded {
+	background-color: #dce2f1;
+}
+
+.accordionTitleActive:before,
+.accordionTitle.is-expanded:before {
+	content: url('/web/assets/images/profile/imgMinusIcon.png');
+}
+
+.accordionItem {
+	height: auto;
+	overflow: hidden;
+	max-height: 50em;
+	transition: max-height 1s;
+}
+
+@media screen and (min-width: 48em) {
+	.accordionItem {
+		/*max-height: 15em;*/
+		transition: max-height 0.5s;
+	}
+}
+
+.accordionItem.is-collapsed {
+	max-height: 0;
+}
+
+.no-js .accordionItem.is-collapsed {
+	max-height: auto;
+}
+
+.animateIn {
+	-webkit-animation: accordionIn 0.45s normal ease-in-out both 1;
+	animation: accordionIn 0.45s normal ease-in-out both 1;
+}
+
+.animateOut {
+	-webkit-animation: accordionOut 0.45s alternate ease-in-out both 1;
+	animation: accordionOut 0.45s alternate ease-in-out both 1;
+}
+
+@-webkit-keyframes accordionIn {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0.9) rotateX(-60deg);
+		transform: scale(0.9) rotateX(-60deg);
+		-webkit-transform-origin: 50% 0;
+		transform-origin: 50% 0;
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+@keyframes accordionIn {
+	0% {
+		opacity: 0;
+		-webkit-transform: scale(0.9) rotateX(-60deg);
+		transform: scale(0.9) rotateX(-60deg);
+		-webkit-transform-origin: 50% 0;
+		transform-origin: 50% 0;
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+@-webkit-keyframes accordionOut {
+	0% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(0.9) rotateX(-60deg);
+		transform: scale(0.9) rotateX(-60deg);
+	}
+}
+
+@keyframes accordionOut {
+	0% {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(0.9) rotateX(-60deg);
+		transform: scale(0.9) rotateX(-60deg);
+	}
+}
+
+hr {
+	border-top: 1px solid #5a70c1 !important;
+}
+
+.gamesdiv {
+	width: 20%;
+	height: 100%;
+	border-right: 0.4px solid #5a70c1;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+}
+
+.gamesdiv:hover {
+	background-color: aliceblue;
+}
+
+.gborderleft {
+	border-left: 0.4px solid #5a70c1;
+}
+
+.btnrefresh_img {
+	background-image: url(/web/Assets/img/shuaxin.png);
+	background-repeat: no-repeat;
+	background-position: 10px 9px;
+	background-size: 20px;
+	padding-left: 20px !important;
+}
+
+.btnreturn_img {
+	background-image: url(/web/Assets/img/hui.png);
+	background-repeat: no-repeat;
+	background-position: 10px 9px;
+	background-size: 20px;
+	padding-left: 20px !important;
+}
+
+.depoTabs {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+    padding-bottom:30px;
+}
+.tablinks {
+    display: block;
+    flex: 0 1 28%;
+    list-style-type: none;
+}
+
+.tabdepo li {
+	background-color: #ffffff; 
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	line-height:38px;
+    height:40px;
+	transition: 0.3s;
+	font-size: 14px;
+    border:1px solid #dbe3f1;
+    text-align: center;
+    border-radius:5px;
+}
+
+.tabdepo li.active {
+    color:#d7967f;
+    border:1px solid #d7967f;
+    border-bottom: 1px solid;
+    box-shadow: 0px 2px;
+}
+
+.tabdepo li.active > a{
+	color: #d7967f;
+    font-weight:bold;
+}
+
+.tabdepo > li > a {
+    position: relative;
+    display: block;
+    /* padding: 10px 15px; */
+}
+
+/*.tablinks {
+	width: 33%;
+	float: left;
+	margin-bottom: 30px;
+	height: 40px;
+}*/
+
+.tabact {
+	color: #fff;
+	background-color: #697dac;
+}
+
+
+/*.tabinact{
+                                                    color:black;
+                                                    background: #aaa;
+                                                }*/
+
+.imgcss {
+	width: 100px;
+	height: 100px !important;
+    margin: 0 auto;
+    cursor:pointer;
+}
+
+#btnIMGBank.inactive {
+	background-image:url('/Web/Assets/images/profile/imgBtnBankUnselected.png');
+    background-size: cover;
+}
+
+#btnIMGCC.inactive {
+    background-image:url('/Web/Assets/images/profile/imgBtnCreditCardUnselected.png');
+    background-size: cover;
+}
+
+#btnIMGBank.active {
+	background-image:url('/Web/Assets/images/profile/imgBtnBankDefault.png');
+    background-size: cover;
+}
+
+#btnIMGCC.active {
+    background-image:url('/Web/Assets/images/profile/imgBtnCreditCardDefault.png');
+    background-size: cover;
+}
+
+#btnIMGBank:hover {
+	background-image:url('/Web/Assets/images/profile/imgBtnBankDefault.png');
+    background-size: cover;
+}
+
+#btnIMGCC:hover {
+    background-image:url('/Web/Assets/images/profile/imgBtnCreditCardDefault.png');
+    background-size: cover;
+}
+
+.channel_div {
+	width: 90%;
+	height: 100px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+.channel_type {
+	width: 50%;
+	height: 100%;
+	float: left;
+	margin-right: 0 !important;
+	text-align: center;
+}
+
+.form-group {
+	height: 26px;
+	margin: 10px;
+}
+
+.finput {
+	width: 95%;
+	height: 26px;
+}
+
+.fheight {
+	height: 26px;
+}
+
+.noticenote {
+	margin-left: 175px;
+	color: #711dbf;
+	font-weight: bold;
+}
+
+.walletdiv {
+	width: 100%;
+	height: 270px;
+}
+
+.gamediv {
+	width: 19%;
+	height: 90px;
+	float: left;
+	border: 1px solid black;
+	margin: 3px;
+	color: black;
+}
+
+.gamediv_long {
+	width: 80%;
+	height: 25px;
+	margin: 0 auto;
+	color: black;
+}
+
+.gamediv_long:hover {
+	background: #6761b3 !important;
+	color: white;
+}
+
+.refreshbtn {
+	width: 119px;
+	margin-bottom: 10px;
+}
+
+.walletdiv div:nth-child(2n) {
+	background-color: #f1d5ff;
+}
+
+.gamefield {
+	width: 50%;
+	height: 100%;
+	float: left;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.balancefield {
+	width: 40%;
+	height: 100%;
+	float: left;
+	text-align: right;
+	background: none !important;
+}
+
+.refreshfield {
+	width: 10%;
+	height: 100%;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+	cursor: pointer;
+}

@@ -1,0 +1,512 @@
+@CHARSET "UTF-8";
+.top_nav .navbar .navbar-list {
+    position: static;
+}
+#chessbody {
+    position: relative;
+    max-width: 1920px;
+    min-width: 1200px;
+    background: #eaeaea url(../images/chess/main-bg.png) repeat-y center top;
+}
+
+.wp {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content-main-bg {
+    padding: 0px 0;
+}
+
+.forgetpwd, .login_after li, .login_after li a {
+    color: #fff;
+}
+
+/*轮播*/
+.banner-content {
+    padding: 20px;
+}
+
+.in_banner {
+    position: relative;
+    height: 260px;
+    overflow: hidden;
+    z-index: 998;
+
+}
+
+.in_banner .big {
+    overflow: hidden;
+    width: 100%;
+    height: 260px;
+}
+
+.in_banner .big li {
+    width: 100%;
+    height: 260px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.in_banner .btns {
+    position: absolute;
+    left: 45%;
+    bottom: 20px;
+    width: 130px;
+    height: 8px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.in_banner .btns li {
+    float: left;
+    width: 32px;
+    height: 8px;
+    margin-right: 10px;
+    color: #222;
+    font-size: 28px;
+    cursor: pointer;
+    text-align: center;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.in_banner .btns li.hover {
+    background: #fd4747;
+}
+
+.game-list .list-items {
+    padding: 30px 0;
+}
+
+/*游戏列表*/
+.game-list .list-items dt,
+.game-list .list-items dd {
+    display: inline-block;
+    vertical-align: top;
+    height: 120px;
+    width: 32%;
+    margin-left: 10px;
+    padding-top: 22px;
+    border-radius: 10px;
+    background: #fff;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+
+.game-list .list-items dd.hot {
+    padding-top: 0;
+    line-height: 120px;
+    text-align: center;
+    font-size: 20px;
+    color: #f44336;
+}
+
+.game-list .list-items dd img {
+    max-width: 90%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.game-list .list-items dd.active,
+.game-list .list-items dd:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(180deg, #d55ca2, #9d61dd);
+}
+
+#chessAll {
+
+}
+
+.game-info {
+    position: relative;
+    float: left;
+    width: 220px;
+    padding: 0 0 10px 0;
+    margin: 0 10px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    font-size: 14px;
+    color: #c1c1c1;
+    transition: all .3s;
+    background: #fff;
+}
+
+/*.game-info:nth-of-type(5n){*/
+/*margin-right: 0;*/
+/*}*/
+
+.game-info:hover {
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    -o-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+
+.game-info .game-pic {
+    width: 220px;
+    height: 220px;
+    overflow: hidden;
+}
+
+.game-info .game-pic img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.game-info .name {
+    padding: 10px;
+    text-align: center;
+    transition: background 0.2s;
+    -webkit-transition: background 0.2s;
+    overflow: hidden;
+}
+
+.game-info .name h4 {
+    color: #333;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.game-info .btn-try {
+    width: 91px;
+    height: 36px;
+    display: inline-block;
+    background: #b48c68;
+    line-height: 36px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.game-info .play {
+    width: 91px;
+    height: 36px;
+    display: inline-block;
+    background: #fd4747;
+    line-height: 36px;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.chess-btn {
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    border-radius: 15px;
+    background: linear-gradient(0deg, #e3cb8d, #fde4a1);
+}
+
+
+
+.logo-cont{
+    height: 60px;
+    width: 334px;
+    margin:  0;
+    background: url(../images/slotGame/chess-icon3.png) no-repeat center top;
+    background-size: auto 60px;
+}
+.logo-cont.night{
+    background: url(../images/slotGame/chess-icon-n.png) no-repeat center top;
+    background-size: auto 60px;
+}
+
+
+
+.header_top {
+    background: #d0af5e;
+}
+
+.top_nav {
+    background: #fff;
+}
+
+.top_nav.night {
+    background: #8d703b;
+}
+
+.header_top.night {
+    background: #af8d4a;
+    color: #333;
+}
+
+.top_nav .navbar .navbar-list {
+    color: #333;
+}
+
+.top_nav .navbar .navbar-list.active,
+.top_nav .navbar .navbar-list:hover {
+    border-bottom: 4px solid #f59730;
+    color: #f59730;
+}
+
+.top_nav .navbar .navbar-list .triangle {
+    border-bottom: 5px solid #f59730;
+}
+
+.header_top .login_after,
+.header_top .login_after li a,
+.header_top.night .login_after li a {
+    color: #fff;
+}
+
+.content-main-bg.night {
+    background: #2e1f0f url(../images/chess/main-bg-night.jpg) no-repeat center top;
+}
+
+.footer-detail {
+    height: 311px;
+    padding-top: 35px;
+    background: url(../images/chess/footer-bg.jpg) no-repeat center top;
+}
+
+.footer-detail.night {
+    background: url(../images/chess/footer-bg-night.jpg) no-repeat center top;
+}
+
+.top_nav .dropdown .drop-list:nth-child(1) .chess-list-context {
+    background: rgba(250, 237, 242, .4);
+    height: auto;
+}
+
+/*免转弹窗*/
+.layui-layer.tips22-layer .layui-layer-btn {
+    text-align: center;
+}
+
+.layui-layer.tips22-layer a {
+    min-width: 90px;
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    background: #697dac;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.layui-layer.tips-layer {
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+}
+
+.layui-layer.tips-layer .layui-layer-content {
+    text-align: center;
+}
+
+.layui-layer.tips-layer .layui-layer-title {
+    padding: 0;
+    border-radius: 10px 10px 0 0;
+    font-size: 16px;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, right top, from(#9968fd), to(#fc49af)) no-repeat center top;
+    background: -webkit-linear-gradient(left, #9968fd, #fc49af) no-repeat center top;
+    background: -o-linear-gradient(left, #9968fd, #fc49af) no-repeat center top;
+    background: linear-gradient(90deg, #9968fd, #fc49af) no-repeat center top;
+}
+
+.layui-layer.tips-layer .layui-layer-btn {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.layui-layer.tips-layer .layui-layer-btn0 {
+    min-width: 90px;
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    background: #697dac;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.layui-layer.tips-layer .layui-layer-btn1 {
+    min-width: 90px;
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.layui-layer.tips-layer .input-group > label {
+    display: inline-block;
+    width: 60px;
+}
+
+.join-game-transform-cont .transfer-title {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.money {
+    color: #f82929;
+}
+
+.join-game-transform-cont .account-btn {
+    display: inline-block;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px 5px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fc49af), to(#9968fd));
+    background: -webkit-linear-gradient(top, #fc49af, #9968fd);
+    background: -o-linear-gradient(top, #fc49af, #9968fd);
+    background: linear-gradient(180deg, #fc49af, #9968fd);
+}
+
+.join-game-transform-cont .account-btn.c1 {
+    height: auto;
+    background: none;
+    color: #333;
+    line-height: 1;
+}
+
+.join-game-transform-cont .transfer-money-context {
+    position: relative;
+    width: 300px;
+    margin: 5px auto;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    border-radius: 20px;
+    text-align: left;
+    background: #eee;
+    color: #fb4ab0;
+}
+
+.join-game-transform-cont .transfer-money-context #transfer-money {
+    position: absolute;
+    top: 0;
+    left: 35px;
+    height: 100%;
+    width: 245px;
+    box-shadow: none;
+    border: none;
+    background: none;
+}
+
+.layui-layer.transfer-layer.tips-layer .layui-layer-btn1,
+.layui-layer.transfer-layer.tips-layer .layui-layer-btn0 {
+    min-width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+.layui-layer.transfer-layer.tips-layer .layui-layer-btn {
+    padding-bottom: 25px;
+}
+
+#fast-deposit-cont {
+    display: none;
+    padding: 25px;
+}
+
+.layui-layer.transfer-layer.tips-layer #fast-deposit-cont .save-cont {
+    width: 311px;
+    height: 119px;
+    margin: 20px auto 10px;
+    padding: 20px 0;
+    font-size: 14px;
+    color: #fff;
+    background: url(../images/copon-bg.png) no-repeat center top;
+}
+
+.coupon-cont {
+    margin-bottom: 25px;
+}
+
+.coupon-cont #coupon {
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    text-align-last: center;
+}
+
+.dividend-multiple-cont .dividend-cont,
+.dividend-multiple-cont .multiple-cont {
+    display: inline-block;
+    width: 48%;
+}
+
+.less-money-layer.layui-layer.layui-layer-dialog .layui-layer-content {
+    overflow: inherit;
+    padding-bottom: 0;
+}
+
+.tt-layer.layui-layer.layui-layer-dialog .layui-layer-content {
+    padding-bottom: 40px;
+}
+
+.less-money-layer.layui-layer.layui-layer-dialog .layui-layer-btn0,
+.less-money-layer.layui-layer.layui-layer-dialog .layui-layer-btn1 {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    background: -webkit-gradient(linear, right top, left top, from(#fc49af), to(#9968fd));
+    background: -webkit-linear-gradient(right, #fc49af, #9968fd);
+    background: -o-linear-gradient(right, #fc49af, #9968fd);
+    background: linear-gradient(-90deg, #fc49af, #9968fd);
+}
+
+.less-money-layer.layui-layer.layui-layer-dialog .layui-layer-btn1 {
+    color: #fff;
+    background: #b5b5b5;
+}
+
+.less-money-layer.layui-layer.layui-layer-dialog .layui-layer-setwin .layui-layer-close2 {
+    right: -5px;
+    top: -5px;
+    background: url(../images/cc.png) no-repeat center;
+}
+
+#tip {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -61px;
+}
+
+#tip-cont {
+    margin: 150px 0 40px;
+    font-size: 14px;
+}
+
+#tip-cont h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tip-cont h3 .iconfont {
+    margin-right: 3px;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #fc4ab0;
+}
+

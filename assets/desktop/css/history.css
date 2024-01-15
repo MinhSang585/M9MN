@@ -1,0 +1,96 @@
+﻿body, html {   
+    min-width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display:table;
+}
+body {
+    display:table-cell;
+    vertical-align:middle;
+    background: #f1f1f1;
+}
+form {
+    display:table;/* shrinks to fit content */
+    margin:auto;
+}
+
+.historyDIV{
+    width: 90vw;
+    height: 40vw;
+    background:white;
+}
+
+.historytitle{
+    padding:10px;
+    text-align:center;
+}
+
+.ui-input {
+    width: 12vw;
+    font-size: 16px;
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    padding-left: 35px;
+    color: #333;
+    height: 40px;
+    border-radius: 3px;
+    float:left;
+}
+
+.datediv{
+    width:26vw;
+    height:40px;
+    margin:0 auto;
+}
+
+.searchdiv{
+    width:26vw;
+    height:40px;
+    margin:0 auto;
+    margin-top:10px;
+    text-align: center;
+}
+
+.ui-btn{
+    display: inline-block;
+    width: 78%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background: #697dac;
+    padding: 0px !important;
+    border: none !important;
+}
+
+.recorddiv{
+    width:95%;text-align:center;margin:0 auto;margin-top:20px;
+}
+
+/*@media screen and (min-width: 320px) and (max-width:1064px) {
+    .ui-input {
+        width: 90%;
+        margin-top:10px;
+    }
+
+    .datediv{
+        width:43%;
+    }
+
+    .searchdiv{
+        width:90%;
+         height:100%;
+        margin-top:10px;
+    }
+
+    .historyDIV{
+        min-height: 500px;
+        background:white;
+    }
+
+}*/
+
+

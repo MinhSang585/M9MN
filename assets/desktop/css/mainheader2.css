@@ -1,0 +1,85 @@
+.game-dropdown{
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    -ms-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    min-width: 1920px;
+    line-height: 1;
+    min-height: 210px;
+    color: #54689a;
+    background: rgba(222,224,236,0.95);
+}
+.top_nav .navbar-list:hover .game-dropdown {
+    display: block;
+}
+.game-drop-list{
+   width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.left-cont{
+    float: left;
+    width: 250px;
+    min-height:210px;
+}
+.right-cont{
+    float: right;
+    width: 950px;
+}
+.slot-icon-cont{
+    min-height: 210px;
+    padding:  12px 0 0 20px;
+    font-size: 16px;
+    background: url(../images/index/new/slot-dec2.png) no-repeat left 70px;
+}
+.slot-icon-cont.active{
+    height: 290px;
+    padding: 55px 0 0 28px;
+    background: url(../images/index/new/slot-dec2.png) no-repeat left bottom;
+}
+.back-rate{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 36px;
+    color: #fe219f;
+}
+
+.live-back-rate{
+    color: #009ef0;
+}
+.percent{
+    font-size: 16px;
+}
+.hide{
+    display: none !important;
+}
+
+.more-game{
+    margin:  15px 0 0;
+    text-align: right;
+    color: #fe219f;
+}
+
+
+.logo-cont {
+    display: block;
+    width: 233px;
+    height: 40px;
+    margin: 10px 0;
+
+    background: url(../images/index/qy.png?v=1.3) no-repeat center top;
+    background-size: 100%;
+}
+
+
+
+.logo-cont.night {
+    background: url(../images/index/qy-n.png) no-repeat center top;
+    background-size: 100% 40px;
+}
+

@@ -1,0 +1,17 @@
+.blink_me {
+	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+	50% 
+	{
+		opacity: 0.5;
+	}
+}
+
+.fa-cust1{
+	font-size: 1.3em;
+    line-height: 1em;
+    vertical-align: -0.125em;
+    padding: 8px;
+}

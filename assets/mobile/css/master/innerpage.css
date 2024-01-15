@@ -1,0 +1,95 @@
+﻿
+
+
+.input_relative{position:relative;}
+
+#comm-back-button {
+    background: url(../../mobile/images/usercenter/icon_arrow_back.png) no-repeat;
+    z-index: 99;
+    width: 23px;
+    height: 23px;
+    background-size: 50%;
+    position: absolute;
+    left: 13px;
+    top: 10px;
+    filter: invert(60%);
+}
+.divprofile{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    -webkit-box-shadow: 0 5px 10px #ccd7e6;
+    box-shadow: 0 5px 10px #ccd7e6;
+    padding:10px;
+    max-width:380px;
+    text-align: center;
+}
+.ui-input {
+    width: 80%;
+    font-size: 16px;
+    background: #F9fafc;
+    border: 1px solid #ccd7e6;
+    padding-left: 40px;
+    color: #376594;
+    /* color: #376594; */
+    height: 40px;
+    border-radius: 7px;
+    box-shadow: inset 0 2px 4px 0 #b8c3d6;
+    line-height:40px;
+    margin:10px;
+    -ms-box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    -webkit-box-sizing:content-box; 
+    box-sizing:content-box;
+}
+.icon_size{
+    width: 18px;
+    height: 19px;
+    position: absolute;
+    left: 24px;
+    margin-top: 20px;
+    background-size: cover;
+}
+.icon-qian {
+    background: url('../../images/userpanel/icon-input-amount.png');
+}
+.icon-promotion {
+	background: url('../../images/userpanel/icon-input-promo.png');
+}
+
+.icon-yinhang{
+    background: url('../../images/userpanel/icon-input-bank.png');
+}
+
+.icon-remark{
+    background: url('../../images/userpanel/icon-input-remark.png');
+}
+
+.icon-password{
+    background: url('../../images/userpanel/icon-input-pw.png');
+}
+
+.icon-trffrom{
+    background: url('../../images/userpanel/icon-input-fromacc.png');
+}
+.icon-trfto{
+    background: url('../../images/userpanel/icon-input-toacc.png');
+}
+
+.icon-history{
+    background: url('../../images/userpanel/icon-input-type.png');
+}
+
+.icon-date{
+    background: url('../../images/userpanel/icon-input-startdate.png');
+}
+
+.icon-user{
+    background: url('../../images/userpanel/icon-input-nickname.png');
+}
+
+.icon-verify{
+    background: url('../../images/userpanel/icon-input-verify.png');
+}
+
+.profile_title{text-align:center;line-height:40px;font-size:19px;}

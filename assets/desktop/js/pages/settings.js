@@ -1,0 +1,1 @@
+﻿var is_accessBlog = 1;

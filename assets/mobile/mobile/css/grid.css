@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.m-grid{width: 100%;overflow: hidden; font-size: 16px; background-color: #fffcf6;    border: 1px solid #d1d1d1; border-radius: 15px;}
+.m-grid .m-grid-header{position: relative; width: 100%; font-size: 120%;}
+.m-grid .m-grid-footer{position: relative; width: 100%;}
+.m-grid .m-grid-pagination{position: relative; display: inline-block; width: 100%; font-size: 100%;}
+.m-grid .m-grid-pagination .m-grid-pagination-left{position: absolute; top: 0; left: 0; display: inline-block; width: 5em; padding: 5px 0 5px 0;}
+.m-grid .m-grid-pagination .m-grid-pagination-left > div{float: left; width: 50%; text-align: center; transform: rotate(180deg); -ms-transform: rotate(180deg); /* IE 9 */ -moz-transform: rotate(180deg); /* Firefox */ -webkit-transform: rotate(180deg); /* Safari 和 Chrome */ -o-transform: rotate(180deg);}
+.m-grid .m-grid-pagination .m-grid-pagination-right{position: absolute; top: 0; right: 0; display: inline-block; width: 5em; padding: 5px 0 5px 0;}
+.m-grid .m-grid-pagination .m-grid-pagination-right > div{float: left; width: 50%; text-align: center;}
+.m-grid .m-grid-pagination .m-grid-pagination-page{display: inline-block; width: 100%; padding: 5px 5em 5px 5em; text-align: center;}
+.m-grid .m-grid-pagination .m-grid-pagination-page input{width: 2em; border: 1px solid #676666; text-align: center;}
+.m-grid .m-grid-pagination .m-grid-pagination-page .m-grid-pagination-page-num{display: inline-block; padding: 5px 10px 5px 10px;}
+.m-grid .m-grid-refresh{float: right; padding: 5px;}
+.m-grid .m-grid-footer-text{text-align: center;padding:5px;}
+.m-grid .m-grid-table{width: 100%; overflow-y: auto;}
+.m-grid .m-grid-table table{width: 100%;}
+.m-grid .m-grid-table table thead tr{border-bottom: 2px solid #CAC7C7;}
+.m-grid .m-grid-table table thead tr td{padding: 5px; text-align: center; font-size: 100%; color: #333;}
+.m-grid .m-grid-table table tbody tr{border-bottom: 1px solid #CAC7C7;}
+.m-grid .m-grid-table table tbody tr td{padding: 10px 5px 10px 5px; text-align: center; font-size: 80%; color: #757575;}
+.m-grid .m-grid-table table tbody tr td .m-grid-row-content-form{display: table; width: 100%; padding: 10px; text-align: left; background: #f5eae3;}
+.m-grid .m-grid-table table tbody tr td .m-grid-row-content-form .m-grid-row-content-row{padding: 10px; line-height: 20px;}
+.m-grid .m-grid-table table tbody tr td .m-grid-row-content-form .m-grid-row-content-row .m-grid-row-content-label{float: left; text-align: right; width: 6em;}
+.m-grid .m-grid-table table .m-grid-row{background-color: #fffcf6;}
+.m-grid .m-grid-table table .m-grid-row.active{border-bottom: 0; background-color: #866551;}
+.m-grid .m-grid-table table .m-grid-row.active td{color:#fff;}
+.m-grid .m-grid-table table .m-grid-row.active .m-grid-row-open{transform: rotate(90deg); -ms-transform: rotate(90deg); /* IE 9 */ -moz-transform: rotate(90deg); /* Firefox */ -webkit-transform: rotate(90deg); /* Safari 和 Chrome */ -o-transform: rotate(90deg);}
+.m-grid .m-grid-table table .m-grid-row.active + .m-grid-row-content{display: table-row;}
+.m-grid .m-grid-table table .m-grid-row .m-grid-row-open{transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out;}
+.m-grid .m-grid-table table .m-grid-row-content{display: none; width: 100%;}
+.m-grid .m-grid-table table .m-grid-row-content td{padding: 0px;}
+.m-grid .m-grid-table table .m-grid-row.active .m-grid-row-content-text{color:#333;}
+
+
+/*重置样式5/18*/
+.m-grid{
+    border-radius: 0;
+}

@@ -1,0 +1,189 @@
+ul, li, dl, dt, dd {
+    list-style: none;
+    float: left;
+}
+
+table, td, img {
+    border: 0;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.main-wrap {
+    overflow: hidden;
+}
+.main-wrap .container{
+height: auto;
+}
+.content {
+    height: 100%;
+    overflow-y: auto;
+    padding-bottom: 20px;
+    background: #f4f4f4;
+
+}
+
+.content .games-title {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+    background: #fff;
+}
+
+.content .games-title ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.content .games-title ul li {
+    padding: 10px 0;
+    color: #000;
+    text-align: center;
+    border-bottom: 1px solid transparent;
+}
+
+.content .games-title ul li:hover,
+.content .games-title ul li.active {
+    border-bottom: 1px solid #ff3e3e;
+    color: #ff3e3e;
+}
+
+.content .games-container {
+    padding: 0 10px;
+    height: 100%;
+    margin: 5% 0 10%;
+}
+
+.content .games-container .tab-panel {
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.content .games-container .tab-panel .game-box {
+    position: relative;
+    width: 48.5%;
+    margin-bottom: 10px;
+    border-radius: 4px 4px 0 0;
+    background: #fff;
+}
+
+.content .games-container .tab-panel .game-box img {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+.content .games-container .tab-panel .game-box img.hot-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 18px;
+}
+
+.content .games-container .tab-panel .game-box h3 {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+}
+
+.content .games-container .tab-panel {
+    display: none;
+}
+
+.content .games-container .tab-panel.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.down-page .layui-layer-title {
+    background: #bb9a55;
+    color: #fff;
+}
+
+.layui-m-layerchild.layui-m-layer-tips-layer.layui-m-anim-up h3 {
+    height: 50px;
+    line-height: 50px;
+    background: -webkit-gradient(linear,left top, right top,from(#9968fd),to(#fc49af)) no-repeat center top;
+    background: -webkit-linear-gradient(left,#9968fd,#fc49af) no-repeat center top;
+    background: -o-linear-gradient(left,#9968fd,#fc49af) no-repeat center top;
+    background: linear-gradient(90deg,#9968fd,#fc49af) no-repeat center top;
+    color: #fff;
+}
+.layui-m-layerchild.layui-m-layer-tips-layer.layui-m-anim-up h3.tips-new{
+    background:none;
+    color: #333;
+}
+
+.layui-m-layerchild.layui-m-layer-tips-layer.layui-m-anim-up .layui-m-layerbtn{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-top: none;
+    background-color: #fff;
+    text-align: center;
+}
+.layui-m-layerchild.layui-m-layer-tips-layer.layui-m-anim-up .layui-m-layerbtn span{;
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0 10px;
+    border: 0;
+    background: #697dac;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.layui-m-layerchild.layui-m-layer-tips-layer.layui-m-anim-up .layui-m-layercont{
+    padding: 30px;
+}
+.input-group > label {
+    display: inline-block;
+    width: 60px;
+}
+
+.input-group > input {
+    height: 30px;
+    width: 165px;
+    line-height: 30px;
+    border-radius: 3px;
+    padding: 0 10px;
+}
+
+.input-group:nth-of-type(2) {
+    margin: 10px 0;
+}
+
+.input-group:nth-last-of-type(1) {
+    position: relative;
+}
+
+#imgTryCode {
+    position: absolute;
+    top: 4px;
+    right: 46px;
+    border-radius: 3px;
+    height: 24px;
+}

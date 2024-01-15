@@ -1,0 +1,19 @@
+﻿.imgSize{
+    width:100%;
+}
+
+body{
+    overflow:auto;
+}
+
+.pageContent{
+    width:90%;min-height:100px;margin:0 auto;margin-top:55px;margin-bottom:60px;
+}
+
+.mt-game{
+    margin-top:10px;
+}
+
+.cursor_pointer{
+    cursor:pointer;
+}

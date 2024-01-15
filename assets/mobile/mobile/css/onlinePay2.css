@@ -1,0 +1,729 @@
+/* common start*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%; /*10 ÷ 16 × 100% = 62.5%*/
+}
+
+/*h1{font-size: 2.4rem;!*2.4 × 10px = 24px*!}*/
+body {
+    font-family: "Microsoft Yahei", "微软雅黑" !important;
+    background: #f8f8f8;
+    font-size: 1.4rem; /*1.4 × 10px = 14px */
+    overflow: hidden;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.btn11{
+    width: 100%;
+    border: 0;
+}
+.btn:disabled{
+    background: #e9e9e9;
+    color: #787876;
+}
+.common-header{
+    position: relative;
+}
+.mb15 {
+    margin: 0 0 15px 0 !important;
+}
+
+.font16 {
+    font-size: 1.6rem;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+/* common end*/
+.main-content {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+.close-btn {
+    position: absolute;
+    left: 15px;
+    top: 16px;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url('../images/app/close.png?v=1') no-repeat center center;
+    background-size: 1.1em;
+}
+
+.close-btn:hover {
+    opacity: 0.8;
+}
+
+.pay-lists .li .title {
+    position: relative;
+    display: block;
+}
+
+.pay-lists .li .page {
+    display: none;
+}
+
+.pay-lists .li.active {
+    height: auto;
+}
+
+.pay-lists .li.active .page {
+    display: block;
+}
+
+.pay-lists .li .stop + .page {
+    display: none !important;
+}
+
+.pay-lists .li .close-btn {
+    position: absolute;
+    left: 10px;
+    top: 26px;
+    display: inline-block;
+    width: 42px;
+    height: 32px;
+}
+
+.pop-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #d1d1d1;
+    display: none;
+    overflow: scroll;
+    z-indx: 9;
+}
+
+.pay-content {
+    padding: 20px 25px;
+    max-height: 100%;
+    overflow: scroll;
+}
+
+.deposit-content .red {
+    color: #FF7F00;
+}
+
+.deposit-content hr {
+    width: 200%;
+    position: relative;
+    right: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*.deposit-content select {*/
+/*border: none !important;*/
+/*}*/
+
+.deposit-content {
+    color: rgba(29, 29, 38, .5);
+}
+
+.deposit-content ol li {
+    line-height: 2;
+    font-size: 1.6rem;
+    list-style: decimal;
+}
+
+/*.deposit-content input[type=text] {*/
+/*outline: none;*/
+/*border: none;*/
+/*box-shadow: none;*/
+/*padding: 0px;*/
+/*color: #1d1d26;*/
+/*background: #f8f8f8;*/
+/*width: 100%;*/
+/*}*/
+
+.deposit-content .mui-select:after {
+    content: "";
+}
+
+.deposit-content .message {
+    color: #ba9a55;
+}
+
+.ulr {
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.deposit-content .mui-select {
+    position: relative;
+    top: 0;
+    right: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.my-select option {
+    height: 35px;
+    line-height: 35px;
+    border-color: #ddd;
+}
+
+.my-input {
+    width: 100%;
+    padding: 0 3%;
+}
+
+.my-input-title {
+    padding: 10px 0 0px 0;
+}
+
+.my-input-title .remind-tips {
+    color: red;
+}
+
+.submit-btn {
+    display: inline-block;
+    width: 100%;
+    border-radius: 7px;
+    height: 55px;
+    line-height: 55px;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    background: url(/mobile/images/app/btn-bg2.jpg) repeat;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid #ff8400;
+    cursor: pointer;
+}
+
+.tips-title {
+    padding: 25px 0 12px 0;
+    font-size: 1.8rem;
+    color: #000;
+}
+
+.deposit-content > ul > li.li.active .page {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: #f8f8f8;
+    height: 100%;
+    z-index: 1;
+    padding-top: 10px;
+}
+
+.mui-textfield > input:focus, .mui-textfield > textarea:focus {
+    border-width: 1px !important;
+}
+
+/*支付宝弹窗扫码*/
+#mui-overlay .mui-overlay-model .mui-overlay-title {
+    background: #bb9a55;
+    color: #fff;
+    height: 45px;
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mui-panel {
+    padding: 10px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+.deposit-content > ul > li.active .page,
+.deposit-content > ul > li .page.active {
+    display: inline-block;
+}
+
+.deposit-content > ul > li .page.stop {
+    display: none !important;
+}
+
+.deposit-content > ul > li .title:BEFORE {
+    display: inline-block;
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -moz-transform: rotate(0deg); /* Firefox */
+    -webkit-transform: rotate(0deg); /* Safari 和 Chrome */
+    -o-transform: rotate(0deg);
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
+    -ms-transition: transform 0.5s ease-in-out;
+}
+
+.deposit-content > ul > li .page {
+    display: none;
+    width: 100%;
+}
+
+.deposit-content > ul > li .page .remark {
+    font-size: 150%;
+    color: #517BBD;
+}
+
+.deposit-content > ul > li .page .weixin-message {
+    padding: 10px;
+    text-align: center;
+    color: red;
+}
+
+.deposit-content > ul > li .page table {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.deposit-content > ul > li .page table th {
+    padding: 5px;
+    border-bottom: 1px solid #d1d1d1;
+    text-align: center;
+    font-size: 80%;
+    background-color: #F6C799;
+}
+
+.deposit-content > ul > li .page table td {
+    padding: 5px;
+    border-bottom: 1px solid #d1d1d1;
+    text-align: center;
+    font-size: 80%;
+}
+
+.deposit-content > ul > li .page .remark.my-input {
+    font-size: 14px;
+}
+
+.deposit-content li.li .title {
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    letter-spacing: 0;
+    font-size: 1em;
+    text-indent: 0;
+    text-align: left;
+    border-bottom: 1px solid #e2e2e3;
+    background: #FFF;
+    color: #333;
+}
+
+.pay-lists .li .i-arrow-r {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    display: inline-block;
+    width: 15px;
+    height: 40px;
+    background: url('../images/usercenter/i-arrow-r.png') no-repeat left center;
+    background-size: 8px 13px;
+}
+
+#funds-transfer-page ol li,
+#funds-withdrawal-page ol li {
+    list-style: decimal;
+}
+
+.copy {
+    background: #fe8000;
+    border-radius: 5px;
+    color: #fff;
+    top: 20px;
+    padding: 0px 20px;
+}
+
+.mui-btn--orange {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.usercenter-sprites {
+    background: url('../../mobile/images/usercenter/usercenter-sprite2.png') no-repeat 0 -1px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+}
+
+.usercenter-sprites.a1 {
+    background-position: 0 0;
+}
+
+.usercenter-sprites.a2 {
+    background-position: 0 -23px;
+}
+
+.usercenter-sprites.a3 {
+    background-position: 0 -45px;
+}
+
+.usercenter-sprites.a4 {
+    background-position: 0 -67px;
+}
+
+.usercenter-sprites.a5 {
+    background-position: 0 -89px;
+}
+
+.usercenter-sprites.a6 {
+    background-position: 0 -111px;
+
+}
+
+.usercenter-sprites.a7 {
+    background-position: 0 -133px;
+}
+
+.usercenter-title {
+    position: relative;
+}
+
+#emailcount {
+    position: relative;
+    top: -8px;
+}
+
+/* 久安弹窗 */
+/*#tab-withdraw .tk_mull {*/
+    /*display: none;*/
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background: rgba(0, 0, 0, .5);*/
+    /*z-index: 999;*/
+    /*top: 0px;*/
+    /*left: 0px;*/
+/*}*/
+
+/*#tab-withdraw .w_350 {*/
+    /*width: 350px;*/
+    /*height: 315px;*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*top: 50%;*/
+    /*margin-left: -175px;*/
+    /*margin-top: -150px;*/
+    /*background: #EEEEEE;*/
+    /*border-radius: 10px;*/
+/*}*/
+
+/*#tab-withdraw .w_350 .title_350 {*/
+    /*text-align: center;*/
+    /*font-size: 16px;*/
+    /*height: 45px;*/
+    /*line-height: 45px;*/
+    /*color: #333333;*/
+    /*border-bottom: 1px solid #ddd;*/
+    /*position: relative;*/
+/*}*/
+
+/*#tab-withdraw .w_350 .title_350 .mull_gb {*/
+    /*position: absolute;*/
+    /*right: 12px;*/
+    /*width: 30px;*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*#tab-withdraw .mull_p {*/
+    /*padding: 20px;*/
+    /*color: #333333;*/
+    /*font-size: 16px;*/
+    /*line-height: 35px;*/
+/*}*/
+
+/*#tab-withdraw .mull_btn li {*/
+    /*width: 45%;*/
+    /*border: 1px solid #DDDDDD;*/
+    /*text-align: center;*/
+    /*font-size: 16px;*/
+    /*margin-left: 10%;*/
+    /*float: left;*/
+    /*margin-top: 15px;*/
+    /*cursor: pointer;*/
+    /*color: #FFFFFF;*/
+/*}*/
+
+/*#tab-withdraw .mull_btn li:first-child {*/
+    /*margin-left: 0px;*/
+/*}*/
+
+/*#tab-withdraw .mull_btn li a {*/
+    /*color: #FFFFFF;*/
+    /*display: inline-block;*/
+/*}*/
+
+/* 账户中心存取款 */
+#usually-use {
+    display: flex;
+}
+
+#usually-use .li {
+    width: 25%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.usercenter-usually-icon {
+    display: inline-block;
+    width: 50px;
+    height: 45px;
+    margin-bottom: .2rem;
+    background: url('../../mobile/images/usercenter/money-icon-sprite.png?v=1.2') no-repeat 0 0;
+}
+
+.usercenter-usually-icon.icon1 {
+    background-position: 6px 0;
+}
+
+.usercenter-usually-icon.icon2 {
+    background-position: 6px -44px;
+}
+
+.usercenter-usually-icon.icon3 {
+    background-position: 6px -88px;
+}
+
+.usercenter-usually-icon.icon4 {
+    background-position: 5px -132px;
+}
+
+.usercenter-usually-icon.icon5 {
+    background-position: 5px -176px;
+}
+
+.usercenter-usually-icon.icon6 {
+    background-position: 5px -220px;
+}
+
+.usercenter-usually-icon.icon7 {
+    background-position: 5px -264px;
+}
+
+.icon-title {
+    display: block;
+    font-size: 90%;
+    color: #000;
+}
+
+.mui-select {
+    position: relative;
+}
+
+.mui-textfield .mui-btn-danger,
+.mui-select .mui-btn-danger {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    border-radius: 0 4px 4px 0;
+    background: #ff3e3e;
+    color: #fff;
+}
+
+.mui-textfield .mui-btn-danger a {
+    color: #fff;
+}
+
+/*.mui-textfield .bind-pay-password {*/
+/*display: none;*/
+/*}*/
+
+.mui-textfield .mui-btn-readonly {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    height: 38px;
+    line-height: 38px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    border-radius: 0 4px 4px 0;
+    background: #e9e9e9;
+    color: #333;
+}
+
+/*.mui-textfield > input, .mui-textfield > textarea, .mui-select > select{*/
+/*height: 40px !important;*/
+/*line-height: 40px !important;*/
+/*padding: 0 .5rem;*/
+/*border: 1px solid #dedede;*/
+/*border-radius: 4px;*/
+/*text-align: left;*/
+/*}*/
+.funds-title {
+    font-size: 14px;
+    color: #000;
+    margin: 10px 0;
+}
+
+.balance-account {
+    margin: 10px 0;
+}
+
+#mui-bankBind-bdXinMing, #mui-bankBind-cardNo, #mui-bankBind-password, #mui-bankBind-bankName {
+    height: 30px !important;
+    line-height: 30px !important;
+}
+
+#onetransfer-submit {
+    margin: 20px 0;
+    /*background: #e9e9e9;*/
+    /*color: #787876;*/
+}
+
+#transfer-submit {
+    margin: 0 0 20px;
+}
+
+.remind-title {
+    font-size: 16px;
+    color: #ff3e3e;
+}
+
+.remind-content > li {
+    line-height: 2;
+}
+
+/*好友推荐*/
+.ui-url-cont {
+    margin-bottom: 20px;
+}
+
+.ui-tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1.5rem 0;
+
+}
+
+.ui-tab li {
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #bb9a55;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.ui-tab li:nth-of-type(1) {
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.ui-tab li:nth-of-type(2) {
+    border-radius: 0 4px 4px 0;
+}
+
+.ui-tab > li.active {
+    color: #fff;
+    background: #bb9a55;
+}
+
+#tab-withdraw .tab-panel {
+    display: none
+}
+
+#tab-withdraw .tab-panel.active {
+    display: block;
+}
+
+.blue {
+    color: #3b75fb !important;
+}
+
+.pink {
+    color: #df5555 !important;
+}
+
+.oragne {
+    color: #ffa60a !important;
+}
+
+.i-refresh {
+    background: url(/images/refresh.png) no-repeat !important;
+    display: inline-block !important;
+    width: 25px !important;
+    height: 25px !important;
+    background-size: 100% !important;
+    position: relative !important;
+    top: 6px !important;
+    left: 5px !important;
+    cursor: pointer !important;
+    float: none !important;
+}
+
+.i-refresh:hover {
+    background: url(/images/refresh-hover.png) no-repeat !important;;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: 100%;
+    position: relative;
+    top: 6px;
+    left: 5px;
+    cursor: pointer;
+}
+
+
+.full-page a {
+    border-bottom: 1px solid #333;
+}
+
+.full-page a:hover, .full-page a:active {
+    text-decoration: none;
+}
+
+.zeng {
+    background: red;
+    position: absolute;
+    top: 5px;
+    right: 105px;
+    padding: 2px 5px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 15px;
+    line-height: 25px;
+}
+
+.unread-coupon{
+    display: none;
+    position: absolute;
+    right: 40px;
+    top: 15px;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    background: #e63522;
+}

@@ -1,0 +1,397 @@
+﻿@charset "UTF-8";
+/*公用样式*/
+
+.flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+.color1{
+    color: #fcf84a;
+    text-decoration: underline;
+}
+.iconfont {
+    padding: 0 5px;
+    font-size: 18px;
+    color: #bb9a55;
+}
+.white{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: underline;
+}
+.text-context {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.hide {
+    display: none !important;
+}
+.input-cont {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 1rem;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.input-cont .input {
+    height: 44px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 0 4px 4px 0;
+}
+
+.input-cont .input:focus {
+    border: none !important;
+    outline: none !important;
+}
+
+.back-to-index{
+    display: block;
+    text-align: left;
+    padding: 10px 5px;
+}
+.back-to-index .icon-chacha{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;;
+}
+.code-cont {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.get-message-code {
+    width: 90px;
+    height: 44px;
+    line-height: 44px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: none;
+    text-align: center;
+    font-size: 14px;
+    color: #bb9a55;
+    background: none;
+}
+.submit-button {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background:#bb9a55 url(/mobile/images/register/btn-bg.png) repeat center top;
+
+    border-radius: 4px;
+}
+
+
+.submit-button:hover {
+    background: #a68541;
+}
+
+.submit-button.disabled {
+    background: #999 url(/mobile/images/register/btn-dis.png) repeat center top !important;
+    box-shadow: none !important;
+    cursor: not-allowed !important;
+    color: #fff !important;
+}
+
+.submit-button.disabled:hover {
+    box-shadow: 0 10px 10px grey;
+}
+
+/*注册*/
+
+.index-wrap {
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    color: #fff;
+    background: url(../../mobile/images/register/bg2.jpg) no-repeat center top;
+    background-size: 100%;
+}
+.login-warp,
+.reg-wrap{
+    height: 110%;
+}
+
+.main-content {
+    padding: 1rem 0 0;
+}
+.login-main-content{
+    padding:1.5rem 0;
+}
+.container{
+    height: 90%;
+}
+
+.header-cont{
+    margin-bottom: 1.5rem;
+    padding: 0 10px;
+}
+.header-cont .reg-title{
+    font-size: 24px;
+    color: #fff;
+    line-height: 1;
+}
+.header-cont  .reg-logo{
+    height: 24px;
+}
+.phone-bg{
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.left-cont{
+    flex: 7;
+    padding: 15px 20px;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+    color: #333;
+    background: rgba(187,154,85,.3) ;
+}
+.right-cont{
+    width: 40px;
+    padding: 100px 12px 0;
+    font-size: 16px;
+    border-radius:  0 4px  4px 0;
+    background: rgba(0,0,0,.6) ;
+}
+.phone-left-cont{
+    flex: 7;
+    padding: 15px 20px;
+    border-radius:  0 4px  4px 0;
+    font-size: 14px;
+    color: #333;
+    background: rgba(0,0,0,.6) ;
+}
+.phone-right-cont{
+    width: 40px;
+    padding: 75px 12px 0;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+
+    background: rgba(187,154,85,.3) ;
+}
+.tips{
+    font-size: 12px;
+    color: #fff;
+}
+
+.imgCode {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 44px;
+    border-radius: 0 4px 4px 0;
+}
+
+.way-cont{
+    position: relative;
+    min-height: 380px;
+}
+
+.register-list {
+    /*position: absolute;*/
+    top: 0;
+    left:-100%;
+    width: 100%;
+    transition: left .5s ease-in-out;
+}
+
+.register-list.active {
+    left: 0;
+}
+
+.js-account-register-cont{
+    left:100%;
+}
+
+.protocol-tips{
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+#regCode {
+    width: 67%;
+}
+
+
+.register-tips {
+    position: relative;
+    bottom: 10px;
+    width: 100%;
+}
+
+/*登入*/
+
+
+.login-phone-left-cont{
+    flex: 7;
+    padding: 50px 20px;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+    color: #333;
+    background: rgba(0,0,0,.6) ;
+}
+.login-phone-right-cont{
+    width: 40px;
+    padding: 75px 12px 0;
+    font-size: 16px;
+    border-radius:4px 0  0   4px;
+
+    background: rgba(187,154,85,.3) ;
+}
+.login-account-left-cont{
+    flex: 7;
+    padding: 20px;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+    color: #333;
+    background: rgba(187,154,85,.3) ;
+}
+.login-account-right-cont{
+    width: 40px;
+    padding: 85px 12px;
+    font-size: 16px;
+    border-radius:  0 4px  4px 0;
+    background: rgba(0,0,0,.6) ;
+}
+.forget-pwd-link {
+    display: block;
+    text-align: right;
+    color: #fff;
+    margin: 20px 0;
+}
+
+
+/*注册成功*/
+.success-page-cont{
+    padding: 20px;
+    color: #fff;
+    line-height: 1;
+}
+.step1{
+    height: 190px;
+    padding:25px 0;
+    text-align: center;
+    border-radius: 15px;
+    background: url(/mobile/images/register/step1.png) no-repeat center top;
+    background-size: 100% 100%;
+
+}
+.smile-icon{
+    height: 60px;
+}
+.register-success-title{
+    padding: 10px 0 20px;
+    font-size: 14px;
+}
+.reg-text{
+    display: inline-block;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #fff;
+}
+.step2{
+    margin: 20px 0;
+    padding: 30px 20px;
+    height: 140px;
+    color: #fff;
+    text-align: right;
+    border-radius: 15px;
+    background: url(/mobile/images/register/step2.png) no-repeat center top;
+    background-size: 100% 100%;
+
+}
+.step3{
+    padding: 30px 20px;
+    height: 140px;
+    color: #fff;
+    border-radius: 15px;
+    background: url(/mobile/images/register/step3.png) no-repeat center top;
+    background-size: 100% 100%;
+
+}
+.go-to-index{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+
+.prize-title{
+    font-size: 24px;
+    font-weight: normal;
+}
+.prize-title1{
+    margin: 12px 0 20px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/*协议弹窗*/
+.layer-protocol .layui-layer-title{
+    background: #bb9a55;
+    color: #fff;
+}
+.layer-protocol .layui-layer-btn{
+    text-align: center;
+    padding: 6px 10px;
+}
+.layer-protocol .layui-layer-btn .layui-layer-btn0{
+    background: #bb9a55;
+    border: none;
+}
+
+/*密码小眼睛显示隐藏*/
+.account-icon {
+    position: absolute;
+    right: 10px;
+    width: 35px;
+    height: 44px;
+    border-radius: 4px 0 0 4px;
+    background: transparent url(../images/login/login-sprite4.png) no-repeat 8px -118px;
+}
+
+.account-icon.active {
+    background: transparent url(../images/login/show2.png) no-repeat center 15px;
+}
+
+
+@media (max-width: 374px) {
+    .main-content {
+        padding: 5% 0 0;
+    }
+    .main-wrap .container{
+        height: 150%;
+    }
+
+}
+@media (min-width: 375px) and (max-width: 413px) {
+    .login-main-content {
+        padding: 1.5rem 0;
+    }
+}
+@media (device-height: 812px) {
+    .main-content {
+        padding: 3rem 0;
+    }
+
+}

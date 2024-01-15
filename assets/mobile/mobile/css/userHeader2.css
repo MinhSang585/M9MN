@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+.red-btn {
+    display: inline-block;
+}
+.red-btn .arrow-right{
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin: 10px 0;
+    background: url(../../images/usercenter/arrow-transfer.png) no-repeat 0 -27px;
+}
+
+/* header start*/
+.o-header {
+    position: relative;
+    background: url('../images/usercenter/top-bg.jpg') no-repeat;
+    background-size: cover;
+}
+
+.o-header .o-wrapper {
+    overflow: hidden;
+    padding: 1rem 0;
+}
+.o-header  .point{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.o-header .o-wrapper .fl {
+    float: left;
+}
+
+.o-header .o-wrapper .fl:nth-child(1) {
+    width: 39%;
+    text-align: center;
+}
+
+.o-header .o-wrapper .fl:nth-child(2) {
+    width: 60%;
+    padding-top: 1em;
+}
+
+.o-header .o-wrapper .fl img {
+    width: 80%;
+    padding: 15px 20px 20px 20px;
+}
+
+.o-header .o-wrapper h1 {
+    font-size: 1em;
+    color: #fff;
+    line-height: 2;
+    text-align: center;
+    font-weight: normal;
+}
+.o-header .o-wrapper h1 span{
+    display: inline-block;
+    margin: 0 .5rem;
+}
+
+.o-header .o-wrapper .fl img {
+    padding-top: 5px !important;
+}
+
+.o-transfer {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #ba9a55;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.o-transfer .icon-transfer {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../../images/usercenter/arrow-transfer.png) no-repeat 0 -5px;
+}
+.copylink{
+
+    display: block;
+    padding-left: 5%;
+    border-top: 1px solid #ba9a55;
+    height: 61px;
+    background: rgba(0, 0, 0, .2);
+    color: #fff;
+}
+.copylink>span{
+    float:left;
+    width: 25%;
+    height: 60px;
+    line-height: 60px;
+}
+.copylink>span:nth-child(2){
+    float:left;
+    width: 50%;
+    padding: 0 5%;
+    height: 60px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.copylink>a{
+    float: right;
+    width: 20%;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 0;
+    background: rgba(0, 0, 0, .4);
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.o-transfer span {
+    position: relative;
+    top: -3px;
+}
+
+.o-balence {
+    height: 40px;
+    line-height: 40px;
+    font-size: 1em;
+    color: #fff;
+    background: rgba(0, 0, 0, .2);
+}
+.header-icon-cont{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-pack: distribute;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+.header-icon-cont p{
+    margin-top: .2rem;
+}
+.vip-cont{
+    padding:0  1rem;
+    width: 50%;
+}
+.private-qrcode{
+    width: 50%;
+    padding:0  1rem;
+    border-left: 2px solid rgba(0, 0, 0, .2);
+}
+
+.private-qrcode .code-box{
+    margin: 1rem auto;
+}
+
+.private-qrcode .code-img{
+    width: 80px;
+    height: 80px;
+}
+#sign-header{
+    height:auto;
+}
+
